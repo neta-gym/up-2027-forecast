@@ -17,7 +17,7 @@
   const $$ = (s, el = document) => [...el.querySelectorAll(s)];
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const nf = (n) => (n == null ? '—' : Number(n).toLocaleString('en-IN'));
-  const pc = (p, d = 0) => (p == null ? '—' : d === 0 && p > 0.995 && p < 1 ? '>99%' : d === 0 && p > 0 && p < 0.005 ? '<1%' : (p * 100).toFixed(d) + '%');
+  const pc = (p, d = 0) => (p == null ? '—' : d === 0 && p >= 0.995 ? '>99%' : d === 0 && p > 0 && p < 0.005 ? '<1%' : (p * 100).toFixed(d) + '%');
   const pct1 = (x) => (x == null ? '—' : Number(x).toFixed(1) + '%');
   const blocOf = (p) => PARTY_BLOC[p] || 'OTH';
   const rupees = (n) => {
@@ -238,6 +238,81 @@
     return out;
   }
 
+  // ------------------------------------------------------------------ leaders
+  // Portraits are hot-linked from Wikimedia Commons (licences listed in LEADER_CREDITS / footer).
+  const WM = 'https://upload.wikimedia.org/wikipedia/commons/';
+  const LEADERS = {
+    yogi: { name: 'Yogi Adityanath', short: 'Yogi', bloc: 'NDA', party: 'BJP', kicker: 'NDA · BJP+', role: 'Chief Minister since 2017 · seeking a third straight BJP term', img: WM + '0/05/Yogi_Adityanath_2026.jpg', o: '50% 22%', z: 1.05,
+      turf: { label: 'Gorakhpur division', districts: ['Gorakhpur', 'Maharajganj', 'Deoria', 'Kushinagar'] }, pins: [322], credit: ['Yogi Adityanath', 'Prime Minister’s Office', 'GODL-India', 'File:Yogi_Adityanath_2026.jpg'] },
+    akhilesh: { name: 'Akhilesh Yadav', short: 'Akhilesh', bloc: 'INDIA', party: 'SP', kicker: 'INDIA · SP+INC', role: 'SP president · MP, Kannauj · CM 2012–17', img: WM + 'thumb/0/02/Shri_Akhilesh_Yadav.png/500px-Shri_Akhilesh_Yadav.png', o: '50% 9%', z: 1.75,
+      turf: { label: 'the Yadav belt', districts: ['Etawah', 'Mainpuri', 'Kannauj', 'Firozabad', 'Auraiya'] }, pins: [110, 199], credit: ['Akhilesh Yadav', 'Harshv7777', 'CC0', 'File:Shri_Akhilesh_Yadav.png'] },
+    rahul: { name: 'Rahul Gandhi', short: 'Rahul', bloc: 'INDIA', party: 'INC', kicker: 'INDIA · Congress', role: 'Leader of Opposition, Lok Sabha · MP, Rae Bareli', img: WM + 'thumb/9/91/Rahul_Gandhi.png/500px-Rahul_Gandhi.png', o: '47% 18%', z: 1.35,
+      turf: { label: 'Rae Bareli & Amethi', districts: ['Raebareli', 'Amethi'] }, pins: [244, 315, 384], credit: ['Rahul Gandhi', 'Himanshu Arya Khowal', 'CC BY 4.0', 'File:Rahul_Gandhi.png'] },
+    mayawati: { name: 'Mayawati', short: 'Mayawati', bloc: 'BSP', party: 'BSP', kicker: 'BSP · going solo', role: 'BSP president · four-time Chief Minister', img: WM + 'd/d3/Mayawati_in_2016_%28cropped%29.jpg', o: '50% 30%', z: 1.1,
+      turf: { label: 'the BSP’s 25 strongest seats', top: 'BSP', n: 25 }, pins: [358], credit: ['Mayawati', 'Flickr: BSP Supremo Mayawati', 'CC BY-SA 2.0', 'File:Mayawati_in_2016_(cropped).jpg'] },
+    azad: { name: 'Chandrashekhar Azad', short: 'Azad', bloc: 'SPM', party: 'ASP(KR)', kicker: 'Azad–Owaisi front', role: 'MP, Nagina · CM face of the ASP(KR)–AIMIM front', img: WM + '5/52/Chandrashekhar_Azad_%28politician%29.jpg', o: '50% 35%', z: 1.15,
+      turf: { label: 'the front’s 15 strongest seats', top: 'SPM', n: 15 }, pins: [18], credit: ['Chandrashekhar Azad', 'sansad.in', 'GODL-India', 'File:Chandrashekhar_Azad_(politician).jpg'] },
+  };
+  const initials = (n) => n.split(' ').map((w) => w[0]).slice(0, 2).join('');
+  function photo(L, cls = '', badge = '') {
+    return `<div class="ph ${cls}" style="--c:${C[L.bloc]};--o:${L.o};--z:${L.z}"><img src="${L.img}" alt="${esc(L.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;mono-fallback&quot;>${initials(L.name)}</div>'">${badge ? `<div class="badge">${badge}</div>` : ''}</div>`;
+  }
+  function turfSeats(L) {
+    if (L.turf.districts) return SEATS.filter((s) => L.turf.districts.includes(s.district));
+    return [...SEATS].sort((a, b) => b.proj[L.turf.top] - a.proj[L.turf.top]).slice(0, L.turf.n);
+  }
+  let GP = null;
+  async function geoPaths() {
+    if (GP) return GP;
+    const g = await loadGeo();
+    let minx = 1e9, maxx = -1e9, miny = 1e9, maxy = -1e9;
+    g.features.forEach((f) => f.geometry.coordinates.forEach((poly) => poly[0].forEach(([x, y]) => { if (x < minx) minx = x; if (x > maxx) maxx = x; if (y < miny) miny = y; if (y > maxy) maxy = y; })));
+    const k = Math.cos(((miny + maxy) / 2) * Math.PI / 180), W = 1000, sx = W / ((maxx - minx) * k);
+    GP = { W, H: (maxy - miny) * sx, paths: g.features.map((f) => {
+      const b = [1e9, 1e9, -1e9, -1e9];
+      const P = ([x, y]) => { const px = (x - minx) * k * sx, py = (maxy - y) * sx; if (px < b[0]) b[0] = px; if (py < b[1]) b[1] = py; if (px > b[2]) b[2] = px; if (py > b[3]) b[3] = py; return `${px.toFixed(0)},${py.toFixed(0)}`; };
+      return { no: f.properties.ac, d: f.geometry.coordinates.map((poly) => 'M' + poly[0].map(P).join('L') + 'Z').join(''), b };
+    }) };
+    return GP;
+  }
+  async function drawTurf(el, L) {
+    const gp = await geoPaths(); const turf = turfSeats(L); const on = new Set(turf.map((s) => s.no));
+    let vb = [-6, -6, gp.W + 12, gp.H + 12];
+    if (L.turf.districts) { // zoom to the turf with some surrounding context
+      const bb = [1e9, 1e9, -1e9, -1e9]; gp.paths.filter((p) => on.has(p.no)).forEach((p) => { bb[0] = Math.min(bb[0], p.b[0]); bb[1] = Math.min(bb[1], p.b[1]); bb[2] = Math.max(bb[2], p.b[2]); bb[3] = Math.max(bb[3], p.b[3]); });
+      let w = bb[2] - bb[0], h = bb[3] - bb[1]; const pad = Math.max(w, h) * 0.45 + 30; let x = bb[0] - pad, y = bb[1] - pad; w += 2 * pad; h += 2 * pad;
+      const ar = 1.45; if (w / h < ar) { const nw = h * ar; x -= (nw - w) / 2; w = nw; } else { const nh = w / ar; y -= (nh - h) / 2; h = nh; }
+      vb = [x, y, w, h];
+    }
+    const inView = (p) => p.b[2] > vb[0] && p.b[0] < vb[0] + vb[2] && p.b[3] > vb[1] && p.b[1] < vb[1] + vb[3];
+    const pins = new Set(L.pins.filter((n) => { const p = gp.paths.find((q) => q.no === n); return p && inView(p); }));
+    const vals = turf.map((s) => s.proj[L.bloc]), lo = Math.min(...vals), hi = Math.max(...vals);
+    const fill = (s) => (L.turf.top ? mix(C[L.bloc], 0.3 + 0.7 * ((s.proj[L.bloc] - lo) / Math.max(1, hi - lo))) : ratingColor(s.rating, s.lead));
+    const body = gp.paths.filter(inView).map((p) => { const s = BYNO[p.no]; const hit = on.has(p.no) || pins.has(p.no);
+      return { pin: pins.has(p.no), h: `<path data-no="${p.no}" d="${p.d}" class="${hit ? 'on' : ''}${pins.has(p.no) ? ' pin' : ''}" fill="${hit ? fill(s) : '#e6e3da'}"/>` }; })
+      .sort((a, b) => a.pin - b.pin).map((x) => x.h);
+    el.innerHTML = `<svg viewBox="${vb.map((v) => v.toFixed(0)).join(' ')}" role="img" aria-label="Map highlighting ${esc(L.name)}'s home turf">${body.join('')}</svg>`;
+    const cap = el.parentNode.querySelector('.cap');
+    if (cap) cap.textContent = `Highlighted: ${L.turf.label}${L.turf.top ? ' — darker = higher projected vote' : ' — shaded by 2027 rating'}${pins.size ? ' · outlined: key seats' : ''}`;
+    el.onmousemove = (ev) => { const t = ev.target.closest('path.on'); if (t) showTip(seatTip(BYNO[t.dataset.no]), ev); else hideTip(); };
+    el.onmouseleave = hideTip;
+    el.onclick = (ev) => { const t = ev.target.closest('path.on'); if (t) { hideTip(); location.hash = '#/seat/' + t.dataset.no; } };
+  }
+  function gauge(pm) {
+    const cx = 150, cy = 140, r = 112, sw = 30;
+    const pt = (deg) => [cx + r * Math.cos((deg * Math.PI) / 180), cy - r * Math.sin((deg * Math.PI) / 180)];
+    const arc = (a0, a1, col) => { const [x0, y0] = pt(a0), [x1, y1] = pt(a1); return `<path d="M${x0.toFixed(1)},${y0.toFixed(1)} A${r},${r} 0 0 1 ${x1.toFixed(1)},${y1.toFixed(1)}" fill="none" stroke="${col}" stroke-width="${sw}"/>`; };
+    const gap = 1.2, aN = 180 - 180 * pm.NDA, aH = aN - 180 * pm.hung;
+    return `<svg class="gauge" viewBox="0 0 300 168" width="100%" style="max-width:300px" role="img" aria-label="Chance of a majority: NDA ${pc(pm.NDA)}, INDIA ${pc(pm.INDIA)}, hung ${pc(pm.hung)}">
+      ${arc(180, aN + gap, C.NDA)}${pm.hung > 0.004 ? arc(aN - gap, aH + gap, '#b9b5aa') : ''}${arc(aH - gap, 0, C.INDIA)}
+      <text x="${cx - r}" y="${cy + 26}" text-anchor="middle" style="font-size:22px;font-weight:700;fill:#14151a;font-family:var(--display)">${pc(pm.NDA)}</text>
+      <text x="${cx + r}" y="${cy + 26}" text-anchor="middle" style="font-size:22px;font-weight:700;fill:#14151a;font-family:var(--display)">${pc(pm.INDIA)}</text>
+      <text x="${cx}" y="${cy - 34}" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#6b6f7a;letter-spacing:1px">CHANCE OF</text>
+      <text x="${cx}" y="${cy - 20}" text-anchor="middle" style="font-size:10px;font-weight:700;fill:#6b6f7a;letter-spacing:1px">MAJORITY</text>
+      <text x="${cx}" y="${cy + 4}" text-anchor="middle" style="font-size:11px;fill:#6b6f7a">hung ${pc(pm.hung)}</text>
+    </svg>`;
+  }
+
   // ------------------------------------------------------------------ views
   function viewHome(app) {
     const S = SUM.seats, pm = SUM.pMajority;
@@ -250,26 +325,73 @@
     const atRisk = SEATS.filter((s) => s.mla.status === 'sitting' && s.mla.score != null).map((s) => ({ s, own: s.prob[blocOf(s.mla.partyNow)] ?? s.prob.OTH })).filter((x) => x.own < 0.5).sort((a, b) => a.own - b.own);
     const ms = SUM.mlaStats;
     const polls = SUM.polls;
+    const LY = LEADERS.yogi, LA = LEADERS.akhilesh, LR = LEADERS.rahul, LM = LEADERS.mayawati, LZ = LEADERS.azad;
+    const flipI = SEATS.filter((s) => s.flip && s.flip.endsWith('INDIA')).length;
+    const callTxt = pm.NDA >= 0.65 ? 'NDA favoured' : pm.INDIA >= 0.65 ? 'INDIA favoured' : 'Too close to call';
+    const turfCard = (key, L, note, stats) => `<article class="lcard" style="--c:${C[L.bloc]}">
+        <div class="lhead">${photo(L)}<div><div class="kicker">${esc(L.kicker)}</div><h3>${esc(L.name)}</h3><div class="role">${esc(L.role)}</div></div></div>
+        <div class="turf"><div class="map chart" id="turf-${key}"></div><div class="cap"></div></div>
+        <div class="lstats">${stats.map(([b, t]) => `<div><b>${b}</b><span>${t}</span></div>`).join('')}</div>
+        <p class="lnote">${note}</p>
+        <a class="lcta" href="#/seats?set=${key}">Explore ${esc(L.short)}'s turf →</a></article>`;
+    const tstat = (L) => { const l = turfSeats(L); return { n: l.length, exp: l.reduce((a, s) => a + s.prob[L.bloc], 0), w22: l.filter((s) => blocOf(s.r2022.cands[0].p) === L.bloc).length, l24: l.filter((s) => blocOf(s.ls2024.w) === L.bloc).length, avg: l.reduce((a, s) => a + s.proj[L.bloc], 0) / l.length }; };
+    const seatPill = (no) => { const x = BYNO[no]; return `<a href="#/seat/${no}">${esc(x.name)}</a> (${esc(x.rating.replace('SPM', 'Azad–Owaisi'))}, ${pc(x.prob[x.lead])})`; };
+    const ty = tstat(LY), ta = tstat(LA), tr = tstat(LR), tm = tstat(LM), tz = tstat(LZ);
     app.innerHTML = `
-    <section class="card hero shadow">
-      <span class="tag">● ${SUM.sims.toLocaleString('en-IN')} simulated elections · 403 seats</span>
-      <h1>WHO WINS UTTAR PRADESH?<br><span class="grad">${head}</span></h1>
-      <p class="lede">A seat-by-seat forecast of the 2027 Vidhan Sabha election, built on every constituency's 2012–2022 results, the 2024 Lok Sabha vote in all 403 assembly segments, MLA affidavits, defections, and the latest opinion polls. Find your seat and see who is likely to win it — and why.</p>
-      <div class="big-search search" id="heroSearch"><input type="search" placeholder="Your constituency, district or MLA…" aria-label="Search your constituency" autocomplete="off"><div class="results"></div></div>
-      <div class="links"><a href="#/seats">Browse all 403 seats</a><a href="#/mlas">MLA report cards</a><a href="#/method">How the model works</a></div>
+    <section class="duel">
+      <div class="duel-top">
+        <span class="tag">● ${SUM.sims.toLocaleString('en-IN')} simulated elections · updated ${new Date(SUM.asOf + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+        <h1>THE BATTLE FOR <span class="grad">UTTAR PRADESH</span></h1>
+        <p class="lede">403 seats. 202 for a majority. Here is where the two camps stand today — and the seats that will decide 2027.</p>
+      </div>
+      <div class="duel-grid">
+        <a class="side" href="#/seat/322" style="--c:${C.NDA}">
+          ${photo(LY, '', 'NDA')}
+          <div class="info"><div class="kicker">${LY.kicker}</div><h2>Yogi Adityanath</h2><div class="role">${esc(LY.role)}</div>
+            <div class="big">${S.NDA.median}</div><div class="big-l">projected seats</div><div class="rng">9 in 10 simulations: ${S.NDA.p05}–${S.NDA.p95}</div>
+            <span class="poll">POLLS ${SUM.target.NDA.toFixed(1)}%</span></div>
+        </a>
+        <div class="center"><div class="vs">VS</div>${gauge(pm)}<div class="call">${callTxt}</div><div class="call-s">On today's polls the NDA leads by ${(SUM.target.NDA - SUM.target.INDIA).toFixed(1)} points — and the SP-led bloc's vote is spread more efficiently.</div></div>
+        <a class="side right" href="#/seats?set=akhilesh" style="--c:${C.INDIA}">
+          <div class="portrait-wrap">${photo(LA, '', 'INDIA')}<div class="rahul"><div class="inset" style="--o:${LR.o};--z:${LR.z}"><img src="${LR.img}" alt="Rahul Gandhi" loading="lazy" referrerpolicy="no-referrer"></div><span class="inset-label">+ RAHUL GANDHI</span></div></div>
+          <div class="info"><div class="kicker">${LA.kicker}</div><h2>Akhilesh Yadav</h2><div class="role">SP president, allied with Rahul Gandhi's Congress</div>
+            <div class="big">${S.INDIA.median}</div><div class="big-l">projected seats</div><div class="rng">9 in 10 simulations: ${S.INDIA.p05}–${S.INDIA.p95}</div>
+            <span class="poll">POLLS ${SUM.target.INDIA.toFixed(1)}%</span></div>
+        </a>
+      </div>
+      ${seatBar(med, { note: 'median seats' })}
+      <div class="contenders">
+        <a class="cont" href="#/seats?set=mayawati" style="--c:${C.BSP}">${photo(LM)}<div><b>Mayawati · BSP</b><div class="s">Going solo at ~${SUM.target.BSP}% of the vote: <strong>${S.BSP.median} seat${S.BSP.median === 1 ? '' : 's'}</strong> projected (range ${S.BSP.p05}–${S.BSP.p95}). Kingmaker only if the house is hung.</div></div></a>
+        <a class="cont" href="#/seats?set=azad" style="--c:${C.SPM}">${photo(LZ)}<div><b>Chandrashekhar Azad</b><div class="s">ASP–AIMIM front, all 403 seats, ~${SUM.target.SPM}% vote: <strong>${S.SPM.median} seat${S.SPM.median === 1 ? '' : 's'}</strong> projected. Can split the opposition vote.</div></div></a>
+        <div class="find"><div class="k">Who wins your seat?</div><div class="big-search search" id="heroSearch"><input type="search" placeholder="Constituency, district or MLA…" aria-label="Search your constituency" autocomplete="off" style="padding:10px 12px;font-size:15px;box-shadow:3px 3px 0 var(--ink)"><div class="results"></div></div></div>
+      </div>
     </section>
 
+    <nav class="band" aria-label="Key numbers">
+      <a href="#/seats?rating=Toss-up" style="--hl:#ffd66b"><div class="n"><em>${tc['Toss-up'] || 0}</em></div><div class="t">toss-up seats decide it</div><div class="go">See them →</div></a>
+      <a href="#/seats?flip=INDIA"><div class="n">${flipI}</div><div class="t">seats projected to flip to INDIA</div><div class="go">Where →</div></a>
+      <a href="#/mlas?sort=own"><div class="n">${atRisk.length}</div><div class="t">sitting MLAs more likely to lose</div><div class="go">Who →</div></a>
+      <a href="#/mlas?flag=def"><div class="n">${ms.defected}</div><div class="t">SP MLAs who switched to BJP</div><div class="go">Their odds →</div></a>
+      <a href="#/mlas?flag=crim"><div class="n">${ms.withCases}</div><div class="t">MLAs with criminal cases</div><div class="go">Report cards →</div></a>
+    </nav>
+
     <section class="card">
-      <span class="tag ink">The forecast</span>
-      <h2>Median outcome: NDA ${S.NDA.median}, INDIA ${S.INDIA.median}</h2>
-      <p class="lede">Majority is ${MAJ}. In ${SUM.sims.toLocaleString('en-IN')} simulations, the NDA's seat total landed between ${S.NDA.p05} and ${S.NDA.p95} nine times in ten; the SP-led INDIA bloc between ${S.INDIA.p05} and ${S.INDIA.p95}. On today's numbers neither side can count on a majority.</p>
-      ${seatBar(med, { note: 'median seats in simulation' })}
-      <div class="tiles">
-        <div class="tile dot" style="--c:${C.NDA}"><div class="k">NDA majority</div><div class="v">${pc(pm.NDA)}</div><div class="s">chance of ${MAJ}+ seats · median ${S.NDA.median}</div></div>
-        <div class="tile dot" style="--c:${C.INDIA}"><div class="k">INDIA majority</div><div class="v">${pc(pm.INDIA)}</div><div class="s">chance of ${MAJ}+ seats · median ${S.INDIA.median}</div></div>
-        <div class="tile"><div class="k">Hung assembly</div><div class="v">${pc(pm.hung)}</div><div class="s">no bloc reaches ${MAJ}</div></div>
-        <div class="tile"><div class="k">Toss-up seats</div><div class="v">${tc['Toss-up'] || 0}</div><div class="s">no side above 60% — these decide it</div></div>
+      <span class="tag">Where the leaders stand</span>
+      <h2>Every leader has a backyard to defend</h2>
+      <p class="lede">We mapped each leader's home turf onto the forecast. Coloured seats are their stronghold, shaded by how safe they are in 2027. Hover a seat for the odds, or tap through.</p>
+      <div class="leaders">
+        ${turfCard('yogi', LY, `Own seat: ${seatPill(322)}. The BJP took ${ty.w22} of these ${ty.n} seats in 2022, but the NDA led only ${ty.l24} of them in the 2024 Lok Sabha vote.`,
+          [[ty.exp.toFixed(0) + '/' + ty.n, 'NDA seats expected here'], [ty.w22, 'won in 2022'], [ty.l24, 'led in 2024 LS']])}
+        ${turfCard('akhilesh', LA, `Family seats: ${seatPill(110)} with nephew Tej Pratap Yadav and ${seatPill(199)} with uncle Shivpal Yadav.`,
+          [[ta.exp.toFixed(0) + '/' + ta.n, 'INDIA seats expected here'], [ta.w22, 'SP+ won in 2022'], [ta.l24, 'led in 2024 LS']])}
+        ${turfCard('rahul', LR, `Congress holds just two assembly seats: ${seatPill(244)} and ${seatPill(315)}. State chief Ajay Rai is reported for ${seatPill(384)}. Congress has asked the SP for ~181 seats.`,
+          [[tr.exp.toFixed(0) + '/' + tr.n, 'INDIA seats expected here'], [tr.w22, 'SP+INC won in 2022'], [tr.l24, 'led in 2024 LS']])}
+        ${turfCard('mayawati', LM, `The BSP's only MLA, Umashankar Singh, is its best hope: ${seatPill(358)}. Its vote fell from 22% (2017) to 12.9% (2022) to 9.4% (2024).`,
+          [[S.BSP.median, 'BSP seats projected (median)'], [tm.avg.toFixed(0) + '%', 'avg BSP vote in these seats'], ['1', 'seat won in 2022']])}
+        ${turfCard('azad', LZ, `${seatPill(18)} — part of the Lok Sabha seat Azad won in 2024 — is the front's best shot.`,
+          [[S.SPM.median, 'front seats projected (median)'], [tz.avg.toFixed(0) + '%', 'avg front vote in these seats'], ['0', 'seats won in 2022']])}
       </div>
+      <p class="credits">Photos via Wikimedia Commons: ${Object.values(LEADERS).map((L) => `${esc(L.credit[0])} — ${esc(L.credit[1])} (<a href="https://commons.wikimedia.org/wiki/${encodeURI(L.credit[3])}" target="_blank" rel="noopener">${esc(L.credit[2])}</a>)`).join(' · ')}.</p>
     </section>
 
     <section class="card">
@@ -368,6 +490,7 @@
     </section>`;
     wireSearch($('#heroSearch'));
     histogram($('#hist'));
+    Object.entries(LEADERS).forEach(([k, L]) => drawTurf($('#turf-' + k), L));
     drawMap($('#map'), 'forecast');
     strip($('#strip'));
     $$('#mapMode button').forEach((b) => b.addEventListener('click', () => {
@@ -408,8 +531,12 @@
     const ratings = RATING_ORDER.filter((r) => SEATS.some((s) => s.rating === r));
     const parties = [...new Set(SEATS.map((s) => s.mla.partyNow))].sort();
     const st = { q: params.get('q') || '', region: params.get('region') || '', district: params.get('district') || '', rating: params.get('rating') || '', party: params.get('party') || '', sort: params.get('sort') || 'no', dir: 1 };
+    const setKey = LEADERS[params.get('set')] ? params.get('set') : '', setNos = setKey ? new Set(turfSeats(LEADERS[setKey]).concat(LEADERS[setKey].pins.map((n) => BYNO[n])).map((x) => x.no)) : null;
+    const flipTo = params.get('flip') || '';
     app.innerHTML = `<section class="card"><span class="tag ink">All constituencies</span><h2>403 seats, one table</h2>
       <p class="lede">Filter by region, district, rating or current MLA party. Click any row for the full constituency breakdown — candidates, MLA record, history and model inputs.</p>
+      ${setKey ? `<div class="set-banner" style="border-color:${C[LEADERS[setKey].bloc]}"><b>${esc(LEADERS[setKey].name)}'s turf:</b> ${esc(LEADERS[setKey].turf.label)} + key seats <a href="#/seats">Clear ✕</a></div>` : ''}
+      ${flipTo ? `<div class="set-banner"><b>Projected to flip to ${esc(BL[flipTo] || flipTo)}</b> compared with the 2022 winner's alliance today <a href="#/seats">Clear ✕</a></div>` : ''}
       <div class="filters">
         <input id="fq" type="search" placeholder="Seat, MLA or candidate…" value="${esc(st.q)}">
         <select id="fr"><option value="">All regions</option>${regions.map((r) => `<option ${r === st.region ? 'selected' : ''}>${esc(r)}</option>`).join('')}</select>
@@ -425,7 +552,7 @@
     const keyf = { no: (s) => s.no, name: (s) => s.name, mla: (s) => s.mla.name, m22: (s) => s.r2022.marginPct, nda: (s) => s.prob.NDA - s.prob.INDIA, rating: (s) => RATING_ORDER.indexOf(s.rating) };
     const render = () => {
       const q = st.q.toLowerCase();
-      let rows = SEATS.filter((s) => (!st.region || s.region === st.region) && (!st.district || s.district === st.district) && (!st.rating || s.rating === st.rating) && (!st.party || s.mla.partyNow === st.party)
+      let rows = SEATS.filter((s) => (!setNos || setNos.has(s.no)) && (!flipTo || (s.flip && s.flip.endsWith(flipTo))) && (!st.region || s.region === st.region) && (!st.district || s.district === st.district) && (!st.rating || s.rating === st.rating) && (!st.party || s.mla.partyNow === st.party)
         && (!q || s.name.toLowerCase().includes(q) || s.mla.name.toLowerCase().includes(q) || s.cands.some((c) => (c.name || '').toLowerCase().includes(q)) || String(s.no) === q));
       const kf = keyf[st.sort] || keyf.no;
       rows.sort((a, b) => { const x = kf(a), y = kf(b); return (x < y ? -1 : x > y ? 1 : 0) * st.dir; });
@@ -438,7 +565,7 @@
         <td class="hide-sm">${partyChip(s.ls2024.w)} <span class="small muted mono">+${s.ls2024.marginPct.toFixed(1)}</span></td>
         <td>${pbar(s.prob)}<div class="small mono">${top.map((b) => `${BL[b]} ${pc(s.prob[b])}`).join(' · ')}</div></td><td>${rateChip(s)}</td></tr>`;
       }).join('') || '<tr><td colspan="8" class="muted">No seats match these filters.</td></tr>';
-      const p = new URLSearchParams(); ['q', 'region', 'district', 'rating', 'party'].forEach((k) => st[k] && p.set(k, st[k])); if (st.sort !== 'no') p.set('sort', st.sort);
+      const p = new URLSearchParams(); if (setKey) p.set('set', setKey); if (flipTo) p.set('flip', flipTo); ['q', 'region', 'district', 'rating', 'party'].forEach((k) => st[k] && p.set(k, st[k])); if (st.sort !== 'no') p.set('sort', st.sort);
       history.replaceState(null, '', '#/seats' + (p.toString() ? '?' + p : ''));
     };
     $('#fq').addEventListener('input', (e) => { st.q = e.target.value; render(); });
