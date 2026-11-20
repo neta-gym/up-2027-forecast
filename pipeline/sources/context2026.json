@@ -1,0 +1,71 @@
+{
+  "as_of": "2026-11-19",
+  "election": {
+    "seats": 403,
+    "majority": 202,
+    "term_ends": "2027-05-22",
+    "expected_polling": "February–March 2027 (schedule not yet announced by ECI)"
+  },
+  "alliances": {
+    "NDA": {"label": "NDA", "lead": "Yogi Adityanath (BJP)", "parties": ["BJP", "RLD", "AD(S)", "SBSP", "NISHAD"]},
+    "INDIA": {"label": "INDIA (SP+INC)", "lead": "Akhilesh Yadav (SP)", "parties": ["SP", "INC", "AD(K)", "JAP", "Lok Dal", "Janvadi Party (S)", "Apni Janata Party"], "note": "SP–Congress seat-sharing talks began 16–17 Nov 2026; Congress has asked for ~181 seats, SP reportedly offering 60–100."},
+    "BSP": {"label": "BSP", "lead": "Mayawati", "parties": ["BSP"], "note": "Contesting alone; ~23 candidates announced."},
+    "SPM": {"label": "Samajik Parivartan Morcha", "lead": "Chandrashekhar Azad (ASP-KR)", "parties": ["ASP(KR)", "AIMIM"], "note": "ASP(KR)–AIMIM front launched 12 Nov 2026; says it will contest all 403 seats."}
+  },
+  "polls": [
+    {"date": "2026-09-29", "agency": "Matrize (News Leader)", "seats": {"NDA": 267, "INDIA": 132, "BSP": 2, "OTH": 2}, "vote": {"NDA": 44.0, "INDIA": 38.0}},
+    {"date": "2026-09-13", "agency": "Spick Media", "seats": {"NDA": 193, "INDIA": 156}, "vote": {"NDA": 42.13, "INDIA": 39.73, "BSP": 10.96, "OTH": 7.18}},
+    {"date": "2026-09-10", "agency": "Survey Sarva", "seats": {"NDA": "179–189", "INDIA": "209–219"}, "vote": {"NDA": 38.7, "INDIA": 40.8}},
+    {"date": "2026-09-01", "agency": "Siddhant Sathe", "seats": {"NDA": "176–198", "INDIA": "200–220"}, "vote": {"NDA": 41.0, "INDIA": 42.0}},
+    {"date": "2026-08-25", "agency": "Vote Vibe", "seats": {}, "vote": {"NDA": 41.8, "INDIA": 38.7, "BSP": 5.2}},
+    {"date": "2026-04-23", "agency": "Dainik Bhaskar", "seats": {"NDA": 264, "INDIA": 137, "BSP": 1, "OTH": 1}, "vote": {}}
+  ],
+  "defectors": [
+    {"ac": "Unchahar", "name": "Manoj Kumar Pandey", "from": "SP", "to": "BJP", "note": "Cross-voted in Feb 2024 Rajya Sabha poll; expelled by SP Jun 2025; sworn in as BJP cabinet minister May 2026."},
+    {"ac": "Gauriganj", "name": "Rakesh Pratap Singh", "from": "SP", "to": "BJP", "note": "Cross-voted in Feb 2024 RS poll; expelled Jun 2025; joined BJP 14 Oct 2026."},
+    {"ac": "Goshainganj", "name": "Abhay Singh", "from": "SP", "to": "BJP", "note": "Cross-voted in Feb 2024 RS poll; expelled Jun 2025; joined BJP 14 Oct 2026."},
+    {"ac": "Kalpi", "name": "Vinod Chaturvedi", "from": "SP", "to": "BJP", "note": "SP rebel; joined BJP 14 Oct 2026."},
+    {"ac": "Chail", "name": "Pooja Pal", "from": "SP", "to": "BJP", "note": "Expelled by SP Aug 2025 after praising CM Yogi; reported as BJP's 2027 pick for Chail."}
+  ],
+  "rebels_uncertain": [
+    {"ac": "Jalalpur", "name": "Rakesh Pandey", "note": "Among SP MLAs who cross-voted in the Feb 2024 Rajya Sabha poll; party status for 2027 unclear."},
+    {"ac": "Bisauli (SC)", "name": "Ashutosh Maurya", "note": "Among SP MLAs who cross-voted in the Feb 2024 Rajya Sabha poll; party status for 2027 unclear."}
+  ],
+  "vacant": [
+    {"ac": "Faridpur (SC)", "last_mla": "Shyam Bihari Lal", "party": "BJP", "note": "Seat vacant after MLA's death; no bypoll held (less than a year left in term)."},
+    {"ac": "Ghosi", "last_mla": "Sudhakar Singh", "party": "SP", "note": "Sudhakar Singh (won 2023 bypoll) died 20 Nov 2025; seat vacant."},
+    {"ac": "Duddhi (ST)", "last_mla": "Vijay Singh Gond", "party": "SP", "note": "Seat vacant; no bypoll held."}
+  ],
+  "roles": {
+    "Gorakhpur Urban": "Chief Minister",
+    "Lucknow Cantonment": "Deputy Chief Minister",
+    "Maharajpur": "Speaker, UP Vidhan Sabha",
+    "Itwa": "Leader of Opposition",
+    "Shahjahanpur": "Cabinet Minister",
+    "Pathardeva": "Cabinet Minister",
+    "Zahoorabad": "Cabinet Minister (SBSP chief)",
+    "Unchahar": "Cabinet Minister (since May 2026)",
+    "Agra Rural": "Cabinet Minister",
+    "Shivpur": "Cabinet Minister",
+    "Bhognipur": "Cabinet Minister",
+    "Mainpuri": "Cabinet Minister",
+    "Aonla": "Cabinet Minister",
+    "Chhata": "Cabinet Minister",
+    "Agra South": "Cabinet Minister",
+    "Allahabad South": "Cabinet Minister",
+    "Kannauj (SC)": "Minister of State (Ind. charge)",
+    "Sahibabad": "Minister of State (Ind. charge)",
+    "Purqazi (SC)": "Minister (RLD)",
+    "Khair (SC)": "Minister of State (since May 2026)",
+    "Khaga (SC)": "Minister of State (since May 2026)",
+    "Meerut South": "Minister of State (Ind. charge)",
+    "Sikandra": "Minister of State (Ind. charge)"
+  },
+  "key_facts": [
+    "BJP is reported to be preparing to deny tickets to 30–40% of its sitting MLAs (UNI / The Statesman, Nov 2026).",
+    "SIR revision of electoral rolls: ~2.04 crore names deleted; final roll of ~13.39 crore voters published 10 Apr 2026.",
+    "Cabinet expansion on 10 May 2026 brought the council of ministers to the constitutional maximum of 60.",
+    "Bypolls since 2022: NDA won 12 of 18 (incl. 7 of 9 in Nov 2024 and Milkipur in Feb 2025); SP held Karhal, Sishamau, Ghosi (2023), Gainsari, Duddhi.",
+    "2024 Lok Sabha: INDIA bloc led in 224 of 403 assembly segments (SP 183/184, INC 39/40), NDA in 174, ASP(KR) in 5."
+  ]
+}

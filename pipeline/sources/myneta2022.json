@@ -1,0 +1,4032 @@
+[
+{
+"cid": 4595,
+"name": "Abbas Ansari",
+"ac": "MAU",
+"party": "Suheldev Bharatiya Samaj Party",
+"crim": 5,
+"edu": "12th Pass",
+"assets": 91843478,
+"liab": 0
+},
+{
+"cid": 3258,
+"name": "Abhay Singh",
+"ac": "GOSHAINGANJ",
+"party": "SP",
+"crim": 10,
+"edu": "Graduate",
+"assets": 67124503,
+"liab": 3620426
+},
+{
+"cid": 1753,
+"name": "Abhijeet Singh",
+"ac": "BITHOOR",
+"party": "BJP",
+"crim": 5,
+"edu": "Graduate",
+"assets": 63979334,
+"liab": 5026198
+},
+{
+"cid": 2338,
+"name": "Aditi Singh",
+"ac": "RAE BARELI",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 309853494,
+"liab": 36181193
+},
+{
+"cid": 3801,
+"name": "Adityanath",
+"ac": "GORAKHPUR URBAN",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 15494054,
+"liab": 0
+},
+{
+"cid": 2908,
+"name": "Ajay",
+"ac": "COLONELGANJ",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 122256084,
+"liab": 25980439
+},
+{
+"cid": 676,
+"name": "Ajay Kumar",
+"ac": "CHHAPRAULI",
+"party": "RLD",
+"crim": 1,
+"edu": "Doctorate",
+"assets": 44536185,
+"liab": 0
+},
+{
+"cid": 4171,
+"name": "Ajay Singh",
+"ac": "HARRAIYA",
+"party": "BJP",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": 139897731,
+"liab": 7063415
+},
+{
+"cid": 1739,
+"name": "Ajit Singh Pal",
+"ac": "SIKANDRA",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 28031251,
+"liab": 718462
+},
+{
+"cid": 4280,
+"name": "Akhilesh",
+"ac": "MUBARAKPUR",
+"party": "SP",
+"crim": 3,
+"edu": "12th Pass",
+"assets": 1648201,
+"liab": 0
+},
+{
+"cid": 1822,
+"name": "Akhilesh Yadav",
+"ac": "KARHAL",
+"party": "SP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 401494817,
+"liab": 4324243
+},
+{
+"cid": 4303,
+"name": "Alam Badi",
+"ac": "NIZAMABAD",
+"party": "SP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 5001036,
+"liab": 0
+},
+{
+"cid": 2613,
+"name": "Alka Singh",
+"ac": "SANDILA",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 7959008,
+"liab": 300000
+},
+{
+"cid": 212,
+"name": "Amit Agarwal",
+"ac": "MEERUT CANTT.",
+"party": "BJP",
+"crim": 6,
+"edu": "Graduate Professional",
+"assets": 1487664557,
+"liab": 132973889
+},
+{
+"cid": 3218,
+"name": "Amit Singh Chauhan",
+"ac": "BIKAPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 11979411,
+"liab": 1285652
+},
+{
+"cid": 1769,
+"name": "Amitabh Bajpai",
+"ac": "ARYA NAGAR",
+"party": "SP",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": 66012508,
+"liab": 1509769
+},
+{
+"cid": 3338,
+"name": "Anand Kumar",
+"ac": "KAISERGANJ",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 16109346,
+"liab": 0
+},
+{
+"cid": 9,
+"name": "Anil Kumar",
+"ac": "SHIKARPUR",
+"party": "BJP",
+"crim": 2,
+"edu": "12th Pass",
+"assets": 147624170,
+"liab": 7500000
+},
+{
+"cid": 3979,
+"name": "Manish Kumar Alias Mantu",
+"ac": "PADRAUNA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 212322958,
+"liab": 1618362
+},
+{
+"cid": 2442,
+"name": "Manish Rawat",
+"ac": "SIDHAULI (SC)",
+"party": "BJP",
+"crim": 5,
+"edu": "Post Graduate",
+"assets": 41161881,
+"liab": 15147528
+},
+{
+"cid": 1674,
+"name": "Manisha",
+"ac": "RATH (SC)",
+"party": "BJP",
+"crim": 3,
+"edu": "Post Graduate",
+"assets": 2294432,
+"liab": 0
+},
+{
+"cid": 2286,
+"name": "Manju Tyagi",
+"ac": "SRI NAGAR (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 30724344,
+"liab": 0
+},
+{
+"cid": 1805,
+"name": "Manohar Lal",
+"ac": "MEHRONI (SC)",
+"party": "BJP",
+"crim": 3,
+"edu": "12th Pass",
+"assets": 152247740,
+"liab": 0
+},
+{
+"cid": 2369,
+"name": "Manoj Kumar Pandey",
+"ac": "UNCHAHAR",
+"party": "SP",
+"crim": 2,
+"edu": "Graduate",
+"assets": 162648132,
+"liab": 19644235
+},
+{
+"cid": 896,
+"name": "Manoj Kumar Paras",
+"ac": "NAGINA (SC)",
+"party": "SP",
+"crim": 4,
+"edu": "12th Pass",
+"assets": 41952700,
+"liab": 2705403
+},
+{
+"cid": 960,
+"name": "Manvendra Singh",
+"ac": "DADRAUL",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 31214061,
+"liab": 1707262
+},
+{
+"cid": 3941,
+"name": "Mata Prasad Pandey",
+"ac": "ITWA",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 57293780,
+"liab": 0
+},
+{
+"cid": 3074,
+"name": "Mayankeshwar Sharan Singh",
+"ac": "TILOI",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 580703047,
+"liab": 2755204
+},
+{
+"cid": 68,
+"name": "Meghshyam",
+"ac": "GOVERDHAN",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 79671150,
+"liab": 0
+},
+{
+"cid": 872,
+"name": "Mehboob Ali",
+"ac": "AMROHA",
+"party": "SP",
+"crim": 1,
+"edu": "12th Pass",
+"assets": 78672141,
+"liab": 3333333
+},
+{
+"cid": 239,
+"name": "Minakshi Singh",
+"ac": "KHURJA (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 14697244,
+"liab": 3650000
+},
+{
+"cid": 1188,
+"name": "Mohammad Abdullah Azam Khan",
+"ac": "SUAR",
+"party": "SP",
+"crim": 43,
+"edu": "Post Graduate",
+"assets": 32867565,
+"liab": 0
+},
+{
+"cid": 1199,
+"name": "Mohammad Azam Khan",
+"ac": "RAMPUR",
+"party": "SP",
+"crim": 87,
+"edu": "Graduate Professional",
+"assets": 61475680,
+"liab": 0
+},
+{
+"cid": 844,
+"name": "Mohammad Faheem Irfan",
+"ac": "BILARI",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 45659179,
+"liab": 0
+},
+{
+"cid": 4032,
+"name": "Mohan",
+"ac": "HATA",
+"party": "BJP",
+"crim": 7,
+"edu": "Post Graduate",
+"assets": 30107025,
+"liab": 0
+},
+{
+"cid": 812,
+"name": "Mohd Nasir",
+"ac": "MORADABAD RURAL",
+"party": "SP",
+"crim": 0,
+"edu": "Literate",
+"assets": 606821671,
+"liab": 13135299
+},
+{
+"cid": 3526,
+"name": "Mohd Tahir Khan",
+"ac": "ISAULI",
+"party": "SP",
+"crim": 3,
+"edu": "12th Pass",
+"assets": 54147875,
+"liab": 3561940
+},
+{
+"cid": 1746,
+"name": "Mohit Sonkar",
+"ac": "BILHAUR (SC)",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate Professional",
+"assets": 8534168,
+"liab": 0
+},
+{
+"cid": 1696,
+"name": "Mool Chandra Singh",
+"ac": "MADHAUGARH",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 19321555,
+"liab": 2800000
+},
+{
+"cid": 851,
+"name": "Mukesh Choudhary",
+"ac": "NAKUR",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 29878370,
+"liab": 1501446
+},
+{
+"cid": 1664,
+"name": "Mukesh Verma",
+"ac": "SHIKOHABAD",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 36316362,
+"liab": 1052297
+},
+{
+"cid": 380,
+"name": "Mukta Raja",
+"ac": "ALIGARH",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 15974190,
+"liab": 4794000
+},
+{
+"cid": 4253,
+"name": "Nafees Ahmad",
+"ac": "GOPALPUR",
+"party": "SP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 10876777,
+"liab": 0
+},
+{
+"cid": 1655,
+"name": "Nagendra Singh Rathour",
+"ac": "BHOJPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 18052790,
+"liab": 646000
+},
+{
+"cid": 1,
+"name": "Nahid Hasan",
+"ac": "KAIRANA",
+"party": "SP",
+"crim": 16,
+"edu": "Graduate Professional",
+"assets": 31422232,
+"liab": 0
+},
+{
+"cid": 3463,
+"name": "Nand Gopal Gupta (Nandi)",
+"ac": "ALLAHABAD SOUTH",
+"party": "BJP",
+"crim": 7,
+"edu": "12th Pass",
+"assets": 373206000,
+"liab": 50828000
+},
+{
+"cid": 63,
+"name": "Nandkishor",
+"ac": "LONI",
+"party": "BJP",
+"crim": 5,
+"edu": "Post Graduate",
+"assets": 24604367,
+"liab": 35975
+},
+{
+"cid": 1190,
+"name": "Naseer Ahmad Khan",
+"ac": "CHAMRAUA",
+"party": "SP",
+"crim": 30,
+"edu": "Post Graduate",
+"assets": 42688645,
+"liab": 0
+},
+{
+"cid": 910,
+"name": "Navab Jan",
+"ac": "THAKURDWARA",
+"party": "SP",
+"crim": 3,
+"edu": "8th Pass",
+"assets": 71576525,
+"liab": 13954320
+},
+{
+"cid": 4385,
+"name": "Neel Ratan Singh",
+"ac": "SEVAPURI",
+"party": "BJP",
+"crim": 2,
+"edu": "12th Pass",
+"assets": 19373958,
+"liab": 0
+},
+{
+"cid": 2414,
+"name": "Nirmal Verma",
+"ac": "BISWAN",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 44862273,
+"liab": 937634
+},
+{
+"cid": 2597,
+"name": "Nitin Agarwal",
+"ac": "HARDOI",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 315242000,
+"liab": 34097000
+},
+{
+"cid": 4553,
+"name": "Om Prakash",
+"ac": "ZAMANIA",
+"party": "SP",
+"crim": 6,
+"edu": "Post Graduate",
+"assets": 55002822,
+"liab": 0
+},
+{
+"cid": 4247,
+"name": "Om Prakash Rajbhar",
+"ac": "ZAHOORABAD",
+"party": "Suheldev Bharatiya Samaj Party",
+"crim": 2,
+"edu": "Graduate",
+"assets": 26131359,
+"liab": 157510
+},
+{
+"cid": 818,
+"name": "Omkumar",
+"ac": "NEHTAUR (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 348984290,
+"liab": 121649591
+},
+{
+"cid": 2246,
+"name": "Ommani Varma",
+"ac": "NARAINI (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 5177561,
+"liab": 200
+},
+{
+"cid": 4115,
+"name": "Paltoo Ram",
+"ac": "BALRAMPUR (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 98020497,
+"liab": 3614512
+},
+{
+"cid": 4018,
+"name": "Panchanand Pathak (P.N. Pathak)",
+"ac": "KUSHINAGAR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 29797783,
+"liab": 0
+},
+{
+"cid": 2490,
+"name": "Pankaj Gupta",
+"ac": "UNNAO",
+"party": "BJP",
+"crim": 6,
+"edu": "Graduate",
+"assets": 60264430,
+"liab": 6901683
+},
+{
+"cid": 5,
+"name": "Pankaj Kumar Malik",
+"ac": "CHARTHAWAL",
+"party": "SP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 63796123,
+"liab": 4193621
+},
+{
+"cid": 56,
+"name": "Pankaj Singh",
+"ac": "NOIDA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 47991479,
+"liab": 1200000
+},
+{
+"cid": 45,
+"name": "Persann Kumar",
+"ac": "SHAMLI",
+"party": "RLD",
+"crim": 0,
+"edu": "Graduate",
+"assets": 183108122,
+"liab": 0
+},
+{
+"cid": 855,
+"name": "Pinki Singh",
+"ac": "ASMOLI",
+"party": "SP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 69990957,
+"liab": 2770806
+},
+{
+"cid": 3430,
+"name": "Piyush Ranjan Nishad",
+"ac": "KARACHHANA",
+"party": "BJP",
+"crim": 2,
+"edu": "12th Pass",
+"assets": 97600969,
+"liab": 8948624
+},
+{
+"cid": 3201,
+"name": "Pooja Pal",
+"ac": "CHAIL",
+"party": "SP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 172840421,
+"liab": 14946208
+},
+{
+"cid": 2060,
+"name": "Poonam Sankhwar",
+"ac": "RASULABAD (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 35883431,
+"liab": 1500000
+},
+{
+"cid": 2940,
+"name": "Prabhat Kumar Verma",
+"ac": "GAURA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 19219234,
+"liab": 0
+},
+{
+"cid": 4479,
+"name": "Prabhu Narayan Yadav",
+"ac": "SAKALDIHA",
+"party": "SP",
+"crim": 6,
+"edu": "Graduate",
+"assets": 14290363,
+"liab": 1964501
+},
+{
+"cid": 290,
+"name": "Pradeep Kumar Chaudhary",
+"ac": "BULANDSHAHR",
+"party": "BJP",
+"crim": 1,
+"edu": "12th Pass",
+"assets": 41940000,
+"liab": 0
+},
+{
+"cid": 2068,
+"name": "Pradeep Kumar Singh",
+"ac": "SADABAD",
+"party": "RLD",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 236884269,
+"liab": 49090791
+},
+{
+"cid": 1604,
+"name": "Pradeep Kumar Yadav",
+"ac": "DIBIYAPUR",
+"party": "SP",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 67971831,
+"liab": 2093281
+},
+{
+"cid": 3668,
+"name": "Pradeep Shukla",
+"ac": "SAHAJANWA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 92741315,
+"liab": 155104
+},
+{
+"cid": 2257,
+"name": "Prakash Dwivedi",
+"ac": "BANDA",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate",
+"assets": 275912664,
+"liab": 58129900
+},
+{
+"cid": 2882,
+"name": "Prateek Bhushan Singh",
+"ac": "GONDA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 106303745,
+"liab": 34349532
+},
+{
+"cid": 3365,
+"name": "Praveen Patel",
+"ac": "PHULPUR",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 402603596,
+"liab": 21784766
+},
+{
+"cid": 2919,
+"name": "Prem Nrayan Pandey",
+"ac": "TARABGANJ",
+"party": "BJP",
+"crim": 1,
+"edu": "12th Pass",
+"assets": 16457591,
+"liab": 1226996
+},
+{
+"cid": 2186,
+"name": "Prem Pal Singh Dhangar",
+"ac": "TUNDLA (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 13326400,
+"liab": 330000
+},
+{
+"cid": 4075,
+"name": "Premsagar Patel",
+"ac": "SISWA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 32680386,
+"liab": 1500000
+},
+{
+"cid": 881,
+"name": "Prof. Shyam Bihari Lal",
+"ac": "FARIDPUR (SC)",
+"party": "BJP",
+"crim": 4,
+"edu": "Doctorate",
+"assets": 59443904,
+"liab": 7490002
+},
+{
+"cid": 4324,
+"name": "Puja",
+"ac": "MEHNAGAR (SC)",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 10911028,
+"liab": 3600000
+},
+{
+"cid": 71,
+"name": "Puran Prakash",
+"ac": "BALDEV (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 99818000,
+"liab": 1904000
+},
+{
+"cid": 265,
+"name": "Purushottam Khandelwal",
+"ac": "AGRA NORTH",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 11789777,
+"liab": 0
+},
+{
+"cid": 3040,
+"name": "Raghuraj Pratap Singh",
+"ac": "KUNDA",
+"party": "Jansatta Dal Loktantrik",
+"crim": 1,
+"edu": "Graduate",
+"assets": 236971038,
+"liab": 0
+},
+{
+"cid": 1638,
+"name": "Raghvendra Kumar Singh",
+"ac": "BHARTHANA (SC)",
+"party": "SP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 18946000,
+"liab": 5040000
+},
+{
+"cid": 4756,
+"name": "Rahul Prakash Kol",
+"ac": "CHHANBEY (SC)",
+"party": "Apna Dal (Soneylal)",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 11422820,
+"liab": 0
+},
+{
+"cid": 2325,
+"name": "Rahul Rajpoot",
+"ac": "HARCHANDPUR",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 27597000,
+"liab": 0
+},
+{
+"cid": 3488,
+"name": "Raj Mani",
+"ac": "KORAON (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 6933477,
+"liab": 0
+},
+{
+"cid": 3541,
+"name": "Raj Prasad Upadhyay",
+"ac": "SADAR",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 70224026,
+"liab": 0
+},
+{
+"cid": 848,
+"name": "Rajbala Singh",
+"ac": "MILAK (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 122495486,
+"liab": 49153516
+},
+{
+"cid": 926,
+"name": "Rajeev Gumber",
+"ac": "SAHARANPUR NAGAR",
+"party": "BJP",
+"crim": 4,
+"edu": "12th Pass",
+"assets": 24057257,
+"liab": 0
+},
+{
+"cid": 1709,
+"name": "Rajeev Singh (Parichha)",
+"ac": "BABINA",
+"party": "BJP",
+"crim": 2,
+"edu": "10th Pass",
+"assets": 93257588,
+"liab": 6924019
+},
+{
+"cid": 819,
+"name": "Rajeev Singh Alias Babbu Bhaiya",
+"ac": "DATAGANJ",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 244119731,
+"liab": 10970569
+},
+{
+"cid": 3008,
+"name": "Rajendra Kumar",
+"ac": "PRATAPGARH",
+"party": "BJP",
+"crim": 2,
+"edu": "Graduate",
+"assets": 54720241,
+"liab": 1600500
+},
+{
+"cid": 4604,
+"name": "Rajendra Kumar",
+"ac": "MUHAMMADABAD-GOHNA (SC)",
+"party": "SP",
+"crim": 2,
+"edu": "Graduate",
+"assets": 18560000,
+"liab": 0
+},
+{
+"cid": 4198,
+"name": "Rajendra Prasad Chaudhary",
+"ac": "RUDHAULI",
+"party": "SP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 111758532,
+"liab": 48622340
+},
+{
+"cid": 2839,
+"name": "Rajendra Singh Patel",
+"ac": "JAHANABAD",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 9426206,
+"liab": 100000
+},
+{
+"cid": 152,
+"name": "Rajesh Chaudhary",
+"ac": "MANT",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 73633252,
+"liab": 9500000
+},
+{
+"cid": 3558,
+"name": "Rajesh Kumar Gautam",
+"ac": "KADIPUR (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 25500040,
+"liab": 2756100
+},
+{
+"cid": 2632,
+"name": "Rajeshwar Singh",
+"ac": "SAROJINI NAGAR",
+"party": "BJP",
+"crim": 0,
+"edu": "Doctorate",
+"assets": 102999489,
+"liab": 0
+},
+{
+"cid": 382,
+"name": "Rajkumar Sahyogi",
+"ac": "IGLAS (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 62646999,
+"liab": 0
+},
+{
+"cid": 2685,
+"name": "Rajni Tiwari",
+"ac": "SHAHABAD",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 28270977,
+"liab": 918240
+},
+{
+"cid": 30,
+"name": "Rajpal Singh Baliyan",
+"ac": "BUDHANA",
+"party": "RLD",
+"crim": 1,
+"edu": "12th Pass",
+"assets": 14007898,
+"liab": 0
+},
+{
+"cid": 1806,
+"name": "Rakesh Kumar Goswami",
+"ac": "MAHOBA",
+"party": "BJP",
+"crim": 2,
+"edu": "Literate",
+"assets": 72948737,
+"liab": 0
+},
+{
+"cid": 2986,
+"name": "Rakesh Kumar Verma Alias Dr. R. K. Verma",
+"ac": "RANIGANJ",
+"party": "SP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 70083790,
+"liab": 1484365
+},
+{
+"cid": 3858,
+"name": "Rakesh Pandey",
+"ac": "JALALPUR",
+"party": "SP",
+"crim": 1,
+"edu": "8th Pass",
+"assets": 592875599,
+"liab": 232288591
+},
+{
+"cid": 3096,
+"name": "Rakesh Pratap Singh",
+"ac": "GAURIGANJ",
+"party": "SP",
+"crim": 4,
+"edu": "10th Pass",
+"assets": 29771473,
+"liab": 3797901
+},
+{
+"cid": 2197,
+"name": "Rakesh Sachan",
+"ac": "BHOGNIPUR",
+"party": "BJP",
+"crim": 6,
+"edu": "Post Graduate",
+"assets": 375424114,
+"liab": 81778692
+},
+{
+"cid": 4164,
+"name": "Ram Achal Rajbhar",
+"ac": "AKBARPUR",
+"party": "SP",
+"crim": 4,
+"edu": "Graduate",
+"assets": 16817299,
+"liab": 0
+},
+{
+"cid": 891,
+"name": "Ram Avatar Singh",
+"ac": "NOORPUR",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 3502999,
+"liab": 73000
+},
+{
+"cid": 4624,
+"name": "Ram Bilash Chauhan",
+"ac": "MADHUBAN",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 60939454,
+"liab": 7146485
+},
+{
+"cid": 3269,
+"name": "Ram Chandra Yadav",
+"ac": "RUDAULI",
+"party": "BJP",
+"crim": 2,
+"edu": "12th Pass",
+"assets": 24685191,
+"liab": 14889410
+},
+{
+"cid": 3512,
+"name": "Ram Feran",
+"ac": "SHRAWASTI",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 96850000,
+"liab": 10000000
+},
+{
+"cid": 3848,
+"name": "Ram Murti Verma",
+"ac": "TANDA",
+"party": "SP",
+"crim": 3,
+"edu": "12th Pass",
+"assets": 59904337,
+"liab": 12046498
+},
+{
+"cid": 1819,
+"name": "Ram Naresh Agnihotri",
+"ac": "BHONGAON",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate Professional",
+"assets": 91560564,
+"liab": 825000
+},
+{
+"cid": 2995,
+"name": "Ram Singh",
+"ac": "PATTI",
+"party": "SP",
+"crim": 6,
+"edu": "Post Graduate",
+"assets": 42593762,
+"liab": 7578005
+},
+{
+"cid": 4804,
+"name": "Rama Shankar Singh",
+"ac": "MARIHAN",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 48494725,
+"liab": 5730304
+},
+{
+"cid": 4405,
+"name": "Ramakant",
+"ac": "PHOOLPUR-PAWAI",
+"party": "SP",
+"crim": 3,
+"edu": "10th Pass",
+"assets": 102209852,
+"liab": 0
+},
+{
+"cid": 2928,
+"name": "Ramapati Shastri",
+"ac": "MANKAPUR (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 44482449,
+"liab": 0
+},
+{
+"cid": 4835,
+"name": "Ramdular",
+"ac": "DUDDHI (ST)",
+"party": "BJP",
+"crim": 1,
+"edu": "12th Pass",
+"assets": 25542840,
+"liab": 750000
+},
+{
+"cid": 4686,
+"name": "Ramesh",
+"ac": "SHAHGANJ",
+"party": "Nirbal Indian Shoshit Hamara Aam Dal",
+"crim": 3,
+"edu": "Graduate",
+"assets": 72139456,
+"liab": 43548559
+},
+{
+"cid": 4672,
+"name": "Ramesh Chandra Mishra",
+"ac": "BADLAPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 24220176,
+"liab": 0
+},
+{
+"cid": 4470,
+"name": "Ramesh Jaiswal",
+"ac": "MUGHALSARAI",
+"party": "BJP",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 27799354,
+"liab": 600000
+},
+{
+"cid": 2013,
+"name": "Ramkhiladi Singh",
+"ac": "GUNNAUR",
+"party": "SP",
+"crim": 9,
+"edu": "Graduate Professional",
+"assets": 42806584,
+"liab": 1123144
+},
+{
+"cid": 2451,
+"name": "Ramkrishna Bhargava",
+"ac": "MISRIKH (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 20777673,
+"liab": 0
+},
+{
+"cid": 2604,
+"name": "Rampal Verma",
+"ac": "BALAMAU (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 47404734,
+"liab": 1251595
+},
+{
+"cid": 4126,
+"name": "Rampratap Verma Alias Shashikant Verma",
+"ac": "UTRAULA",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 35980551,
+"liab": 0
+},
+{
+"cid": 1804,
+"name": "Ramratan Kushwaha",
+"ac": "LALITPUR",
+"party": "BJP",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 34177788,
+"liab": 1539681
+},
+{
+"cid": 96,
+"name": "Rani Pakshalika Singh",
+"ac": "BAH",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 584850043,
+"liab": 2985069
+},
+{
+"cid": 1716,
+"name": "Rashmi Arya",
+"ac": "MAURANIPUR (SC)",
+"party": "Apna Dal (Soneylal)",
+"crim": 0,
+"edu": "Doctorate",
+"assets": 73114299,
+"liab": 1799495
+},
+{
+"cid": 4766,
+"name": "Ratnakar Mishra",
+"ac": "MIRZAPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Others",
+"assets": 48432367,
+"liab": 3900000
+},
+{
+"cid": 1714,
+"name": "Ravi Sharma",
+"ac": "JHANSI NAGAR",
+"party": "BJP",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 98653552,
+"liab": 44802372
+},
+{
+"cid": 2557,
+"name": "Ravidas Mehrotra",
+"ac": "LUCKNOW CENTRAL",
+"party": "SP",
+"crim": 22,
+"edu": "Graduate Professional",
+"assets": 7251009,
+"liab": 540000
+},
+{
+"cid": 4380,
+"name": "Ravindra Jaiswal",
+"ac": "VARANASI NORTH",
+"party": "BJP",
+"crim": 3,
+"edu": "Post Graduate",
+"assets": 269871362,
+"liab": 7054250
+},
+{
+"cid": 2202,
+"name": "Rekha Verma",
+"ac": "BIDHUNA",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 130916338,
+"liab": 2139000
+},
+{
+"cid": 4065,
+"name": "Rishi",
+"ac": "NAUTANWA",
+"party": "Nirbal Indian Shoshit Hamara Aam Dal",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 64162259,
+"liab": 0
+},
+{
+"cid": 913,
+"name": "Ritesh Kumar Gupta",
+"ac": "MORADABAD NAGAR",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 99860846,
+"liab": 8409553
+},
+{
+"cid": 3751,
+"name": "Sabhakunwar",
+"ac": "BHATPAR RANI",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 16929474,
+"liab": 833709
+},
+{
+"cid": 1670,
+"name": "Sachin Yadav",
+"ac": "JASRANA",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 326512955,
+"liab": 28416127
+},
+{
+"cid": 3125,
+"name": "Sakendra Pratap",
+"ac": "KURSI",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 12912851,
+"liab": 0
+},
+{
+"cid": 1000,
+"name": "Salona Kushwaha",
+"ac": "TILHAR",
+"party": "BJP",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": 124882342,
+"liab": 24615752
+},
+{
+"cid": 869,
+"name": "Samarpal Singh",
+"ac": "NAUGAWAN SADAT",
+"party": "SP",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": 12360000,
+"liab": 300000
+},
+{
+"cid": 102,
+"name": "Sandeep Kumar Singh",
+"ac": "ATRAULI",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 144657223,
+"liab": 0
+},
+{
+"cid": 3419,
+"name": "Sandeep Singh",
+"ac": "MEJA",
+"party": "SP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 111292361,
+"liab": 36424458
+},
+{
+"cid": 3603,
+"name": "Sangram Singh",
+"ac": "PHEPHANA",
+"party": "SP",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 37285403,
+"liab": 3210470
+},
+{
+"cid": 39,
+"name": "Sanjay Kumar Sharma",
+"ac": "ANUPSHAHR",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 35186343,
+"liab": 6404523
+},
+{
+"cid": 2568,
+"name": "Sanjay Singh Gangwar",
+"ac": "PILIBHIT",
+"party": "BJP",
+"crim": 4,
+"edu": "Graduate",
+"assets": 55199374,
+"liab": 14912048
+},
+{
+"cid": 1625,
+"name": "Sanjeev Kumar",
+"ac": "JALESAR (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 13999507,
+"liab": 142107
+},
+{
+"cid": 4847,
+"name": "Sanjeev Kumar",
+"ac": "OBRA (ST)",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 49285519,
+"liab": 1178000
+},
+{
+"cid": 1636,
+"name": "Sarita",
+"ac": "ETAWAH",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 39182348,
+"liab": 1200000
+},
+{
+"cid": 1910,
+"name": "Saroj",
+"ac": "GHATAMPUR (SC)",
+"party": "Apna Dal (Soneylal)",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 138137164,
+"liab": 4656000
+},
+{
+"cid": 3280,
+"name": "Saroj Sonkar",
+"ac": "BALHA (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 28946401,
+"liab": 1228692
+},
+{
+"cid": 3814,
+"name": "Sarvan Kumar Nishad",
+"ac": "CHAURI-CHAURA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 72996,
+"liab": 0
+},
+{
+"cid": 1658,
+"name": "Sarvesh Singh",
+"ac": "SIRSAGANJ",
+"party": "SP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 28652169,
+"liab": 4530874
+},
+{
+"cid": 3154,
+"name": "Satish Chandra Sharma",
+"ac": "DARIYABAD",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 15119389,
+"liab": 1844179
+},
+{
+"cid": 1614,
+"name": "Satyapal Singh Rathore",
+"ac": "ALIGANJ",
+"party": "BJP",
+"crim": 1,
+"edu": "10th Pass",
+"assets": 75005001,
+"liab": 0
+},
+{
+"cid": 2624,
+"name": "Saurabh Singh",
+"ac": "KASTA (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 16676741,
+"liab": 421352
+},
+{
+"cid": 4449,
+"name": "Saurabh Srivastava",
+"ac": "VARANASI CANTT.",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 128611030,
+"liab": 5279022
+},
+{
+"cid": 164,
+"name": "Shahid Manzoor",
+"ac": "KITHORE",
+"party": "SP",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": 45280464,
+"liab": 0
+},
+{
+"cid": 3714,
+"name": "Shalabh Mani Tripathi",
+"ac": "DEORIA",
+"party": "BJP",
+"crim": 0,
+"edu": "Doctorate",
+"assets": 60535299,
+"liab": 1038616
+},
+{
+"cid": 2382,
+"name": "Shashank Trivedi",
+"ac": "MAHOLI",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 29901119,
+"liab": 0
+},
+{
+"cid": 2770,
+"name": "Shashank Verma",
+"ac": "NIGHASAN",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 22963175,
+"liab": 583646
+},
+{
+"cid": 1061,
+"name": "Shazil Islam Ansari",
+"ac": "BHOJIPURA",
+"party": "SP",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 95833446,
+"liab": 2887189
+},
+{
+"cid": 2464,
+"name": "Shrikant Katiyar",
+"ac": "BANGERMAU",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 10946083,
+"liab": 982701
+},
+{
+"cid": 157,
+"name": "Shrikant Sharma",
+"ac": "MATHURA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 12267101,
+"liab": 0
+},
+{
+"cid": 3681,
+"name": "Shriram Chauhan",
+"ac": "KHAJANI (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 23353479,
+"liab": 0
+},
+{
+"cid": 2693,
+"name": "Shyam Prakash",
+"ac": "GOPAMAU (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 28285533,
+"liab": 48594268
+},
+{
+"cid": 2316,
+"name": "Shyam Sunder",
+"ac": "BACHHRAWAN (SC)",
+"party": "SP",
+"crim": 1,
+"edu": "10th Pass",
+"assets": 6416150,
+"liab": 0
+},
+{
+"cid": 3924,
+"name": "Shyamdhani Rahi",
+"ac": "KAPILVASTU (SC)",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 2192526,
+"liab": 150000
+},
+{
+"cid": 3443,
+"name": "Sidharth Nath Singh",
+"ac": "ALLAHABAD WEST",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 323897885,
+"liab": 76035288
+},
+{
+"cid": 3549,
+"name": "Sitaram Verma",
+"ac": "LAMBHUA",
+"party": "BJP",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": 63466000,
+"liab": 0
+},
+{
+"cid": 1109,
+"name": "Suchi",
+"ac": "BIJNOR",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 33830301,
+"liab": 616262
+},
+{
+"cid": 4542,
+"name": "Suhaib Alias Mannu Ansari",
+"ac": "MOHAMMADABAD",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 2256968,
+"liab": 0
+},
+{
+"cid": 33,
+"name": "Sunil Kumar Sharma",
+"ac": "SAHIBABAD",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 13488067,
+"liab": 1552500
+},
+{
+"cid": 3741,
+"name": "Surendra Chaurasia",
+"ac": "RAMPUR KARKHANA",
+"party": "BJP",
+"crim": 2,
+"edu": "12th Pass",
+"assets": 3902784,
+"liab": 732912
+},
+{
+"cid": 4006,
+"name": "Surendra Kumar Kushwaha",
+"ac": "FAZILNAGAR",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 10300000,
+"liab": 400000
+},
+{
+"cid": 1763,
+"name": "Surendra Maithani",
+"ac": "GOVINDNAGAR",
+"party": "BJP",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 101515257,
+"liab": 7234665
+},
+{
+"cid": 3085,
+"name": "Suresh Kumar",
+"ac": "JAGDISHPUR (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 15757726,
+"liab": 1200000
+},
+{
+"cid": 953,
+"name": "Suresh Kumar Khanna",
+"ac": "SHAHJAHANPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 17887747,
+"liab": 60000
+},
+{
+"cid": 3313,
+"name": "Sureshwar Singh",
+"ac": "MAHASI",
+"party": "BJP",
+"crim": 5,
+"edu": "12th Pass",
+"assets": 30808376,
+"liab": 0
+},
+{
+"cid": 3730,
+"name": "Surya Pratap Shahi",
+"ac": "PATHARDEVA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 64972955,
+"liab": 0
+},
+{
+"cid": 1647,
+"name": "Sushil Kumar Shakya",
+"ac": "AMRITPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 29088254,
+"liab": 3105000
+},
+{
+"cid": 4490,
+"name": "Sushil Singh",
+"ac": "SAIYADRAJA",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate",
+"assets": 219793498,
+"liab": 18928899
+},
+{
+"cid": 1107,
+"name": "Swami Omvesh",
+"ac": "CHANDPUR",
+"party": "SP",
+"crim": 6,
+"edu": "Post Graduate",
+"assets": 55897675,
+"liab": 6000000
+},
+{
+"cid": 1136,
+"name": "Tasleem Ahmad",
+"ac": "NAJIBABAD",
+"party": "SP",
+"crim": 1,
+"edu": "Literate",
+"assets": 11000849,
+"liab": 714769
+},
+{
+"cid": 304,
+"name": "Tejpal Singh Nagar",
+"ac": "DADRI",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 59442594,
+"liab": 990000
+},
+{
+"cid": 98,
+"name": "Thakur Jaiveer Singh",
+"ac": "BARAULI",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 130754430,
+"liab": 6711061
+},
+{
+"cid": 4356,
+"name": "Tribhuwan Ram",
+"ac": "AJAGARA (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 145724828,
+"liab": 11700000
+},
+{
+"cid": 4631,
+"name": "Tufani Saroj",
+"ac": "KERAKAT (SC)",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 65580474,
+"liab": 2354772
+},
+{
+"cid": 849,
+"name": "Umar Ali Khan",
+"ac": "BEHAT",
+"party": "SP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 58038001,
+"liab": 1406216
+},
+{
+"cid": 3576,
+"name": "Umashankar Singh",
+"ac": "RASARA",
+"party": "BSP",
+"crim": 1,
+"edu": "12th Pass",
+"assets": 540504522,
+"liab": 130235095
+},
+{
+"cid": 2852,
+"name": "Usha Maurya",
+"ac": "HUSAINGANJ",
+"party": "SP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 18928688,
+"liab": 0
+},
+{
+"cid": 3481,
+"name": "Vachaspati",
+"ac": "BARA (SC)",
+"party": "Apna Dal (Soneylal)",
+"crim": 4,
+"edu": "Post Graduate",
+"assets": 182299003,
+"liab": 0
+},
+{
+"cid": 3230,
+"name": "Ved Prakash",
+"ac": "AYODHYA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 55300914,
+"liab": 1286050
+},
+{
+"cid": 861,
+"name": "Veer Vikram Singh",
+"ac": "KATRA",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 16798197,
+"liab": 0
+},
+{
+"cid": 328,
+"name": "Vijaypal (Aadhti)",
+"ac": "HAPUR (SC)",
+"party": "BJP",
+"crim": 3,
+"edu": "Not Given",
+"assets": 12799449,
+"liab": 839999
+},
+{
+"cid": 2274,
+"name": "Vikas Gupta",
+"ac": "AYAH SHAH",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 323997588,
+"liab": 123191949
+},
+{
+"cid": 75,
+"name": "Anil Kumar",
+"ac": "PURQAZI (SC)",
+"party": "RLD",
+"crim": 2,
+"edu": "12th Pass",
+"assets": 8348761,
+"liab": 1854195
+},
+{
+"cid": 2950,
+"name": "Anil Kumar Anil Pradhan",
+"ac": "CHITRAKOOT",
+"party": "SP",
+"crim": 2,
+"edu": "Graduate",
+"assets": 30496,
+"liab": 47854
+},
+{
+"cid": 2505,
+"name": "Anil Kumar Singh",
+"ac": "PURWA",
+"party": "BJP",
+"crim": 2,
+"edu": "12th Pass",
+"assets": 195173120,
+"liab": 57700000
+},
+{
+"cid": 3875,
+"name": "Anil Kumar Tripathi",
+"ac": "MENHDAWAL",
+"party": "Nirbal Indian Shoshit Hamara Aam Dal",
+"crim": 8,
+"edu": "Others",
+"assets": 192149033,
+"liab": 34805255
+},
+{
+"cid": 2403,
+"name": "Anil Kumar Verma",
+"ac": "LAHARPUR",
+"party": "SP",
+"crim": 2,
+"edu": "Graduate",
+"assets": 29467862,
+"liab": 4567424
+},
+{
+"cid": 373,
+"name": "Anil Parashar",
+"ac": "KOIL",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 66823654,
+"liab": 15132414
+},
+{
+"cid": 1685,
+"name": "Anjula Singh Mahaur",
+"ac": "HATHRAS (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 45109357,
+"liab": 0
+},
+{
+"cid": 4563,
+"name": "Ankit Bharti",
+"ac": "SAIDPUR (SC)",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 25774732,
+"liab": 10797334
+},
+{
+"cid": 3886,
+"name": "Ankur Tiwari",
+"ac": "KHALILABAD",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 69311940,
+"liab": 15239974
+},
+{
+"cid": 230,
+"name": "Anoop Singh Alias Anoop Pradhan Valmeeki",
+"ac": "KHAIR (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 9238262,
+"liab": 2068000
+},
+{
+"cid": 3318,
+"name": "Anupma Jaiswal",
+"ac": "BAHRAICH",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 53971873,
+"liab": 176662
+},
+{
+"cid": 4791,
+"name": "Anurag Singh",
+"ac": "CHUNAR",
+"party": "BJP",
+"crim": 5,
+"edu": "Post Graduate",
+"assets": 119746880,
+"liab": 16802651
+},
+{
+"cid": 3059,
+"name": "Aradhana Mishra, Mona",
+"ac": "RAMPUR KHAS",
+"party": "INC",
+"crim": 6,
+"edu": "Graduate",
+"assets": 340621305,
+"liab": 0
+},
+{
+"cid": 2132,
+"name": "Archana Pandey",
+"ac": "CHHIBRAMAU",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 50849357,
+"liab": 911569
+},
+{
+"cid": 2545,
+"name": "Arvind Giri",
+"ac": "GOLA GOKRANNATH",
+"party": "BJP",
+"crim": 6,
+"edu": "Graduate Professional",
+"assets": 118207035,
+"liab": 4384868
+},
+{
+"cid": 2429,
+"name": "Asha Maurya",
+"ac": "MAHMOODABAD",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 55915781,
+"liab": 2500000
+},
+{
+"cid": 2535,
+"name": "Ashish Kumar Singh (Ashu)",
+"ac": "BILGRAM-MALLANWAN",
+"party": "BJP",
+"crim": 1,
+"edu": "Doctorate",
+"assets": 21095393,
+"liab": 539386
+},
+{
+"cid": 2971,
+"name": "Ashok Kumar",
+"ac": "SALON (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 6586548,
+"liab": 500000
+},
+{
+"cid": 357,
+"name": "Vikram Singh",
+"ac": "KHATAULI",
+"party": "BJP",
+"crim": 2,
+"edu": "10th Pass",
+"assets": 16829247,
+"liab": 996362
+},
+{
+"cid": 2870,
+"name": "Vinay Kumar",
+"ac": "MEHNAUN",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 47713345,
+"liab": 4542769
+},
+{
+"cid": 4044,
+"name": "Vinay Prakash",
+"ac": "RAMKOLA (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 7101000,
+"liab": 0
+},
+{
+"cid": 3915,
+"name": "Vinay Verma",
+"ac": "SHOHRATGARH",
+"party": "Apna Dal (Soneylal)",
+"crim": 4,
+"edu": "12th Pass",
+"assets": 1443877,
+"liab": 0
+},
+{
+"cid": 1698,
+"name": "Vinod Chaturvedi",
+"ac": "KALPI",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 37145230,
+"liab": 970000
+},
+{
+"cid": 3052,
+"name": "Vinod Kumar",
+"ac": "BABAGANJ (SC)",
+"party": "Jansatta Dal Loktantrik",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": 38216704,
+"liab": 8958
+},
+{
+"cid": 3531,
+"name": "Vinod Singh",
+"ac": "SULTANPUR",
+"party": "BJP",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 166770272,
+"liab": 0
+},
+{
+"cid": 1619,
+"name": "Vipin Kumar David",
+"ac": "ETAH",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 136317611,
+"liab": 14136023
+},
+{
+"cid": 4461,
+"name": "Vipul Dubey",
+"ac": "GYANPUR",
+"party": "Nirbal Indian Shoshit Hamara Aam Dal",
+"crim": 4,
+"edu": "Post Graduate",
+"assets": 11840572,
+"liab": 0
+},
+{
+"cid": 4055,
+"name": "Virendra Chaudhary",
+"ac": "PHARENDA",
+"party": "INC",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 53593000,
+"liab": 0
+},
+{
+"cid": 4533,
+"name": "Virendra Kumar Yadav",
+"ac": "JANGIPUR",
+"party": "SP",
+"crim": 1,
+"edu": "Doctorate",
+"assets": 159601705,
+"liab": 58110343
+},
+{
+"cid": 2015,
+"name": "Virendra Singh Lodhi",
+"ac": "MARHARA",
+"party": "BJP",
+"crim": 5,
+"edu": "Graduate",
+"assets": 27364583,
+"liab": 4991201
+},
+{
+"cid": 2589,
+"name": "Vishambhar Singh",
+"ac": "BABERU",
+"party": "SP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 76265268,
+"liab": 520000
+},
+{
+"cid": 2818,
+"name": "Vivek Kumar Verma",
+"ac": "BISALPUR",
+"party": "BJP",
+"crim": 4,
+"edu": "Post Graduate",
+"assets": 10585000,
+"liab": 700000
+},
+{
+"cid": 193,
+"name": "Yogendra Upadhyaya",
+"ac": "AGRA SOUTH",
+"party": "BJP",
+"crim": 4,
+"edu": "Post Graduate",
+"assets": 45622250,
+"liab": 0
+},
+{
+"cid": 511,
+"name": "Yogesh Dhama",
+"ac": "BAGHPAT",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 210528303,
+"liab": 28452700
+},
+{
+"cid": 2737,
+"name": "Yogesh Shukla",
+"ac": "BAKSHI KAA TALAB",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 11181533,
+"liab": 0
+},
+{
+"cid": 2788,
+"name": "Yogesh Verma",
+"ac": "LAKHIMPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 42188169,
+"liab": 1152265
+},
+{
+"cid": 4332,
+"name": "Zahid",
+"ac": "BHADOHI",
+"party": "SP",
+"crim": 3,
+"edu": "12th Pass",
+"assets": 16218587,
+"liab": 0
+},
+{
+"cid": 914,
+"name": "Zia Ur Rehman",
+"ac": "KUNDARKI",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 9806217,
+"liab": 0
+},
+{
+"cid": 3586,
+"name": "Ziyauddin Rizvi",
+"ac": "SIKANDERPUR",
+"party": "SP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 34044557,
+"liab": 1155000
+},
+{
+"cid": 905,
+"name": "Ashok Kumar Rana",
+"ac": "DHAMPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 104725336,
+"liab": 5919657
+},
+{
+"cid": 215,
+"name": "Ashraf Ali Khan",
+"ac": "THANA BHAWAN",
+"party": "RLD",
+"crim": 1,
+"edu": "12th Pass",
+"assets": 29896611,
+"liab": 1164910
+},
+{
+"cid": 933,
+"name": "Ashu Malik",
+"ac": "SAHARANPUR",
+"party": "SP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 29848836,
+"liab": 6540841
+},
+{
+"cid": 907,
+"name": "Ashutosh Maurya Alias Raju",
+"ac": "BISAULI (SC)",
+"party": "SP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 304793053,
+"liab": 0
+},
+{
+"cid": 2668,
+"name": "Ashutosh Tandon (Gopal Ji)",
+"ac": "LUCKNOW EAST",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate",
+"assets": 86781141,
+"liab": 0
+},
+{
+"cid": 1729,
+"name": "Asim Arun",
+"ac": "KANNAUJ (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 82772217,
+"liab": 0
+},
+{
+"cid": 3991,
+"name": "Asim Kumar",
+"ac": "TAMKUHI RAJ",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 271951887,
+"liab": 50743717
+},
+{
+"cid": 874,
+"name": "Ataur Rehman",
+"ac": "BAHERI",
+"party": "SP",
+"crim": 1,
+"edu": "Others",
+"assets": 39206274,
+"liab": 0
+},
+{
+"cid": 142,
+"name": "Atul Garg",
+"ac": "GHAZIABAD",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 230304541,
+"liab": 12901325
+},
+{
+"cid": 168,
+"name": "Atul Pradhan",
+"ac": "SARDHANA",
+"party": "SP",
+"crim": 38,
+"edu": "Graduate",
+"assets": 29432751,
+"liab": 0
+},
+{
+"cid": 2964,
+"name": "Avinash Chandra Dwivedi",
+"ac": "MANIKPUR",
+"party": "Apna Dal (Soneylal)",
+"crim": 1,
+"edu": "Graduate",
+"assets": 162309991,
+"liab": 4976579
+},
+{
+"cid": 4350,
+"name": "Awadhesh Kumar Singh",
+"ac": "PINDRA",
+"party": "BJP",
+"crim": 0,
+"edu": "Doctorate",
+"assets": 77765098,
+"liab": 3349446
+},
+{
+"cid": 3,
+"name": "Babulal",
+"ac": "FATEHPUR SIKRI",
+"party": "BJP",
+"crim": 7,
+"edu": "10th Pass",
+"assets": 67137618,
+"liab": 900000
+},
+{
+"cid": 2308,
+"name": "Baburam",
+"ac": "PURANPUR (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 13201314,
+"liab": 0
+},
+{
+"cid": 87,
+"name": "Baby Rani Maurya",
+"ac": "AGRA RURAL (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 28672774,
+"liab": 0
+},
+{
+"cid": 845,
+"name": "Baldev Singh Aulakh",
+"ac": "BILASPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 36903439,
+"liab": 10636602
+},
+{
+"cid": 2471,
+"name": "Bamba Lal",
+"ac": "SAFIPUR (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 195464989,
+"liab": 52582973
+},
+{
+"cid": 2897,
+"name": "Bawan Singh",
+"ac": "KATRA BAZAR",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate",
+"assets": 56750308,
+"liab": 8407078
+},
+{
+"cid": 4318,
+"name": "Bechai",
+"ac": "LALGANJ (SC)",
+"party": "SP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 8243697,
+"liab": 500000
+},
+{
+"cid": 4584,
+"name": "Bedi",
+"ac": "JAKHANIAN (SC)",
+"party": "Suheldev Bharatiya Samaj Party",
+"crim": 9,
+"edu": "Graduate",
+"assets": 246064895,
+"liab": 406745
+},
+{
+"cid": 4827,
+"name": "Bhupesh Chaubey",
+"ac": "ROBERTSGANJ",
+"party": "BJP",
+"crim": 2,
+"edu": "Graduate",
+"assets": 12210118,
+"liab": 2970408
+},
+{
+"cid": 3759,
+"name": "Bijaylaxmi Gautam",
+"ac": "SALEMPUR (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 8800994,
+"liab": 0
+},
+{
+"cid": 3658,
+"name": "Bipin Singh",
+"ac": "GORAKHPUR RURAL",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 95730611,
+"liab": 2838688
+},
+{
+"cid": 1691,
+"name": "Birendra Singh Rana",
+"ac": "SIKANDRA RAO",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 113398881,
+"liab": 2606928
+},
+{
+"cid": 2479,
+"name": "Brajesh Kumar",
+"ac": "MOHAN (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 40368562,
+"liab": 785265
+},
+{
+"cid": 2646,
+"name": "Brajesh Pathak",
+"ac": "LUCKNOW CANTT.",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 100383962,
+"liab": 0
+},
+{
+"cid": 836,
+"name": "Brajesh Yadav",
+"ac": "SAHASWAN",
+"party": "SP",
+"crim": 1,
+"edu": "12th Pass",
+"assets": 80825637,
+"liab": 1274446
+},
+{
+"cid": 1811,
+"name": "Brij Bhushan Rajput",
+"ac": "CHARKHARI",
+"party": "BJP",
+"crim": 5,
+"edu": "Graduate",
+"assets": 194286480,
+"liab": 996193
+},
+{
+"cid": 180,
+"name": "Chandan Chauhan",
+"ac": "MEERAPUR",
+"party": "RLD",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 63536901,
+"liab": 2624321
+},
+{
+"cid": 2827,
+"name": "Chandra Prakash",
+"ac": "FATEHPUR",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 22655633,
+"liab": 2301320
+},
+{
+"cid": 204,
+"name": "Chandrapal Singh",
+"ac": "DEBAI",
+"party": "BJP",
+"crim": 0,
+"edu": "8th Pass",
+"assets": 64976900,
+"liab": 0
+},
+{
+"cid": 951,
+"name": "Chetram",
+"ac": "POWAYAN (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 18961186,
+"liab": 1500000
+},
+{
+"cid": 95,
+"name": "Chhotey Lal Verma",
+"ac": "FATEHABAD",
+"party": "BJP",
+"crim": 0,
+"edu": "8th Pass",
+"assets": 63914393,
+"liab": 1137492
+},
+{
+"cid": 4609,
+"name": "Dara Singh Chauhan",
+"ac": "GHOSI",
+"party": "SP",
+"crim": 3,
+"edu": "12th Pass",
+"assets": 45871863,
+"liab": 300000
+},
+{
+"cid": 3615,
+"name": "Daya Shankar Singh",
+"ac": "BALLIA NAGAR",
+"party": "BJP",
+"crim": 5,
+"edu": "Post Graduate",
+"assets": 37713393,
+"liab": 0
+},
+{
+"cid": 3767,
+"name": "Deepak Kumar Mishr",
+"ac": "BARHAJ",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 13322688,
+"liab": 0
+},
+{
+"cid": 2353,
+"name": "Devendra Pratap Singh",
+"ac": "SARENI",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 26598082,
+"liab": 1542811
+},
+{
+"cid": 1796,
+"name": "Devendra Singh",
+"ac": "KASGANJ",
+"party": "BJP",
+"crim": 2,
+"edu": "10th Pass",
+"assets": 24326701,
+"liab": 0
+},
+{
+"cid": 293,
+"name": "Devendra Singh Lodhi",
+"ac": "SYANA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 38000708,
+"liab": 2849339
+},
+{
+"cid": 66,
+"name": "Dharmesh Singh Tomar",
+"ac": "DHOLANA",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 102777168,
+"liab": 0
+},
+{
+"cid": 1097,
+"name": "Dharmpal Singh",
+"ac": "AONLA",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 29367373,
+"liab": 0
+},
+{
+"cid": 3137,
+"name": "Dharmraj Singh Yadav",
+"ac": "BARABANKI",
+"party": "SP",
+"crim": 3,
+"edu": "Graduate Professional",
+"assets": 28431704,
+"liab": 0
+},
+{
+"cid": 308,
+"name": "Dhirendra Singh",
+"ac": "JEWAR",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 103271114,
+"liab": 10299585
+},
+{
+"cid": 4346,
+"name": "Dinanath Bhashkar",
+"ac": "AURAI (SC)",
+"party": "BJP",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": 70099019,
+"liab": 5245000
+},
+{
+"cid": 3161,
+"name": "Dinesh Rawat",
+"ac": "HAIDERGARH (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 6778291,
+"liab": 984705
+},
+{
+"cid": 827,
+"name": "Dr Arun Kumar",
+"ac": "BAREILLY",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 146468299,
+"liab": 0
+},
+{
+"cid": 4739,
+"name": "Dr R.K. Patel",
+"ac": "MARIYAHU",
+"party": "Apna Dal (Soneylal)",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 92031993,
+"liab": 18403125
+},
+{
+"cid": 4814,
+"name": "Dr. Anil Kumar Maurya",
+"ac": "GHORAWAL",
+"party": "BJP",
+"crim": 1,
+"edu": "Doctorate",
+"assets": 73943664,
+"liab": 28137051
+},
+{
+"cid": 875,
+"name": "Dr. D. C. Verma",
+"ac": "MEERGANJ",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 39788154,
+"liab": 1412450
+},
+{
+"cid": 6,
+"name": "Dr. Dharmpal Singh",
+"ac": "ETMADPUR",
+"party": "BJP",
+"crim": 1,
+"edu": "Doctorate",
+"assets": 71759650,
+"liab": 0
+},
+{
+"cid": 82,
+"name": "Dr. G S Dharmesh",
+"ac": "AGRA CANTT. (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 43597778,
+"liab": 0
+},
+{
+"cid": 880,
+"name": "Dr. M. P. Arya",
+"ac": "NAWABGANJ",
+"party": "BJP",
+"crim": 6,
+"edu": "Graduate Professional",
+"assets": 199983897,
+"liab": 27577679
+},
+{
+"cid": 2031,
+"name": "Dr. Manoj Kumar",
+"ac": "HAMIRPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Doctorate",
+"assets": 18106733,
+"liab": 5373681
+},
+{
+"cid": 4438,
+"name": "Dr. Neelkanth Tiwari",
+"ac": "VARANASI SOUTH",
+"party": "BJP",
+"crim": 1,
+"edu": "Doctorate",
+"assets": 16285857,
+"liab": 0
+},
+{
+"cid": 2752,
+"name": "Dr. Neeraj Bora",
+"ac": "LUCKNOW NORTH",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 98765324,
+"liab": 11918338
+},
+{
+"cid": 3169,
+"name": "Dr. Pallavi Patel",
+"ac": "SIRATHU",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 33522994,
+"liab": 887000
+},
+{
+"cid": 826,
+"name": "Dr. Raghavendra Sharma",
+"ac": "BITHARI CHAINPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 170991240,
+"liab": 37787258
+},
+{
+"cid": 4722,
+"name": "Dr. Ragini",
+"ac": "MACHHLISHAHR (SC)",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 109188544,
+"liab": 49394118
+},
+{
+"cid": 4395,
+"name": "Dr. Sangram",
+"ac": "ATRAULIYA",
+"party": "SP",
+"crim": 5,
+"edu": "Post Graduate",
+"assets": 30383322,
+"liab": 0
+},
+{
+"cid": 4136,
+"name": "Dr. Shiv Pratap Yadav",
+"ac": "GAINSARI",
+"party": "SP",
+"crim": 2,
+"edu": "Doctorate",
+"assets": 19740932,
+"liab": 0
+},
+{
+"cid": 4372,
+"name": "Dr. Sunil Patel",
+"ac": "ROHANIYA",
+"party": "Apna Dal (Soneylal)",
+"crim": 0,
+"edu": "Doctorate",
+"assets": 6150000,
+"liab": 2592000
+},
+{
+"cid": 1860,
+"name": "Dr. Surabhi",
+"ac": "KAIMGANJ (SC)",
+"party": "Apna Dal (Soneylal)",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 80732601,
+"liab": 1770000
+},
+{
+"cid": 3690,
+"name": "Dr. Vimlesh Paswan",
+"ac": "BANSGAON (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 261581995,
+"liab": 29323969
+},
+{
+"cid": 4775,
+"name": "Dr. Vinod Kumar Bind",
+"ac": "MAJHAWAN",
+"party": "Nirbal Indian Shoshit Hamara Aam Dal",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 47434596,
+"liab": 18241478
+},
+{
+"cid": 4220,
+"name": "Dudhram",
+"ac": "MAHADEWA (SC)",
+"party": "Suheldev Bharatiya Samaj Party",
+"crim": 4,
+"edu": "Literate",
+"assets": 39958771,
+"liab": 8100000
+},
+{
+"cid": 4291,
+"name": "Durga Prasad Yadav",
+"ac": "AZAMGARH",
+"party": "SP",
+"crim": 3,
+"edu": "Graduate Professional",
+"assets": 224022739,
+"liab": 1211494
+},
+{
+"cid": 1987,
+"name": "Eng. Brajesh Katheriya",
+"ac": "KISHNI (SC)",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 17461905,
+"liab": 3024906
+},
+{
+"cid": 3126,
+"name": "Fareed Mahfooz Kidwai",
+"ac": "RAM NAGAR",
+"party": "SP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 52760425,
+"liab": 3541615
+},
+{
+"cid": 3896,
+"name": "Ganesh Chandra",
+"ac": "DHANGHATA (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 17476271,
+"liab": 1534726
+},
+{
+"cid": 3146,
+"name": "Gaurav Kumar",
+"ac": "ZAIDPUR (SC)",
+"party": "SP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 3154542,
+"liab": 3529137
+},
+{
+"cid": 1705,
+"name": "Gauri Shankar",
+"ac": "ORAI (SC)",
+"party": "BJP",
+"crim": 2,
+"edu": "10th Pass",
+"assets": 7910769,
+"liab": 474749
+},
+{
+"cid": 3351,
+"name": "Geeta Shastri (Pasi)",
+"ac": "SORAON (SC)",
+"party": "SP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 20701440,
+"liab": 1000000
+},
+{
+"cid": 348,
+"name": "Ghulam Mohammad",
+"ac": "SIWALKHAS",
+"party": "RLD",
+"crim": 3,
+"edu": "Post Graduate",
+"assets": 24550000,
+"liab": 9270116
+},
+{
+"cid": 4657,
+"name": "Girish Chandra Yadav",
+"ac": "JAUNPUR",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 6990792,
+"liab": 0
+},
+{
+"cid": 1603,
+"name": "Gudiya Katheriya",
+"ac": "AURAIYA (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "8th Pass",
+"assets": 1075000,
+"liab": 0
+},
+{
+"cid": 852,
+"name": "Gulab Debi",
+"ac": "CHANDAUSI (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 25919572,
+"liab": 450000
+},
+{
+"cid": 2426,
+"name": "Gyan Tiwari",
+"ac": "SEVATA",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 57928114,
+"liab": 3576617
+},
+{
+"cid": 4103,
+"name": "Gyanendra Singh",
+"ac": "PANIYRA",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 23283282,
+"liab": 2000000
+},
+{
+"cid": 1764,
+"name": "Haji Irfan Solanki",
+"ac": "SISHAMAU",
+"party": "SP",
+"crim": 3,
+"edu": "12th Pass",
+"assets": 93889400,
+"liab": 0
+},
+{
+"cid": 3404,
+"name": "Hakim Lal Bind",
+"ac": "HANDIA",
+"party": "SP",
+"crim": 3,
+"edu": "Graduate",
+"assets": 34639160,
+"liab": 8795711
+},
+{
+"cid": 3572,
+"name": "Hansu Ram",
+"ac": "BELTHARA ROAD (SC)",
+"party": "Suheldev Bharatiya Samaj Party",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 22994398,
+"liab": 4100000
+},
+{
+"cid": 209,
+"name": "Harendra Singh",
+"ac": "GARHMUKTESHWAR",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 79203786,
+"liab": 2101650
+},
+{
+"cid": 997,
+"name": "Hari Prakash Verma",
+"ac": "JALALABAD",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 23011823,
+"liab": 1657281
+},
+{
+"cid": 1799,
+"name": "Hariom",
+"ac": "AMANPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 21921218,
+"liab": 427000
+},
+{
+"cid": 3453,
+"name": "Harshvardhan Bajpai",
+"ac": "ALLAHABAD NORTH",
+"party": "BJP",
+"crim": 2,
+"edu": "Graduate Professional",
+"assets": 86702441,
+"liab": 5370184
+},
+{
+"cid": 2764,
+"name": "Harvinder Kumar Sahni Alias Romi Sahni",
+"ac": "PALIA",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 288217066,
+"liab": 40455075
+},
+{
+"cid": 809,
+"name": "Himanshu Yadav",
+"ac": "SHEKHUPUR",
+"party": "SP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": 27943989,
+"liab": 0
+},
+{
+"cid": 4270,
+"name": "Hriday Narayan Singh Patel",
+"ac": "SAGRI",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 164616030,
+"liab": 25758000
+},
+{
+"cid": 3187,
+"name": "Indrajeet Saroj",
+"ac": "MANJHANPUR (SC)",
+"party": "SP",
+"crim": 1,
+"edu": "Graduate",
+"assets": 143343340,
+"liab": 22737132
+},
+{
+"cid": 3499,
+"name": "Indrani Devi",
+"ac": "BHINGA",
+"party": "SP",
+"crim": 2,
+"edu": "12th Pass",
+"assets": 40525000,
+"liab": 1500000
+},
+{
+"cid": 943,
+"name": "Iqbal Mehmood",
+"ac": "SAMBHAL",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 102346198,
+"liab": 140686
+},
+{
+"cid": 4745,
+"name": "Jagdish Narayan",
+"ac": "ZAFRABAD",
+"party": "Suheldev Bharatiya Samaj Party",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 49903677,
+"liab": 1194124
+},
+{
+"cid": 3796,
+"name": "Jai Prakash Anchal",
+"ac": "BAIRIA",
+"party": "SP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": 22821706,
+"liab": 285000
+},
+{
+"cid": 3702,
+"name": "Jai Prakash Nishad",
+"ac": "RUDRAPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 36157663,
+"liab": 945000
+},
+{
+"cid": 3931,
+"name": "Jai Pratap Singh",
+"ac": "BANSI",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 80685033,
+"liab": 0
+},
+{
+"cid": 4507,
+"name": "Jaikishan",
+"ac": "GHAZIPUR",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 26129145,
+"liab": 0
+},
+{
+"cid": 1721,
+"name": "Jawahar Lal Rajput",
+"ac": "GARAUTHA",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 29198354,
+"liab": 3210060
+},
+{
+"cid": 2270,
+"name": "Jay Kumar Singh Jaiki",
+"ac": "BINDKI",
+"party": "Apna Dal (Soneylal)",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 69628758,
+"liab": 23552200
+},
+{
+"cid": 4088,
+"name": "Jay Mangal",
+"ac": "MAHARAJGANJ (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "8th Pass",
+"assets": 14834676,
+"liab": 3000000
+},
+{
+"cid": 2802,
+"name": "Jaydrath Alias Pravaktanand",
+"ac": "BARKHERA",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate",
+"assets": 1976902,
+"liab": 1782645
+},
+{
+"cid": 3032,
+"name": "Jeet Lal",
+"ac": "VISHWANATH GANJ",
+"party": "Apna Dal (Soneylal)",
+"crim": 0,
+"edu": "Graduate",
+"assets": 6488660,
+"liab": 110000
+},
+{
+"cid": 4497,
+"name": "Kailash",
+"ac": "CHAKIA (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 2243192,
+"liab": 0
+},
+{
+"cid": 4144,
+"name": "Kailash Nath",
+"ac": "TULSIPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 18257290,
+"liab": 419657
+},
+{
+"cid": 2145,
+"name": "Kailash Rajput",
+"ac": "TIRWA",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": 36141099,
+"liab": 4580421
+},
+{
+"cid": 908,
+"name": "Kamal Akhtar",
+"ac": "KANTH",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 78974986,
+"liab": 28200000
+},
+{
+"cid": 4420,
+"name": "Kamalkant",
+"ac": "DIDARGANJ",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 41697663,
+"liab": 2000000
+},
+{
+"cid": 177,
+"name": "Kapil Dev Agarwal",
+"ac": "MUZAFFAR NAGAR",
+"party": "BJP",
+"crim": 7,
+"edu": "Graduate",
+"assets": 30872416,
+"liab": 7459272
+},
+{
+"cid": 4183,
+"name": "Kavindra Chaudhary",
+"ac": "KAPTANGANJ",
+"party": "SP",
+"crim": 1,
+"edu": "Graduate",
+"assets": 154435178,
+"liab": 21717841
+},
+{
+"cid": 939,
+"name": "Kirat Singh",
+"ac": "GANGOH",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 22521327,
+"liab": 1158633
+},
+{
+"cid": 4,
+"name": "Krishan Pal Malik",
+"ac": "BARAUT",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 122482474,
+"liab": 36149000
+},
+{
+"cid": 2860,
+"name": "Krishna Paswan",
+"ac": "KHAGA (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 24350067,
+"liab": 4554822
+},
+{
+"cid": 831,
+"name": "Kunwar Sushant Singh",
+"ac": "BARHAPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 68684579,
+"liab": 300000
+},
+{
+"cid": 233,
+"name": "Lakshmi Raj",
+"ac": "SIKANDRABAD",
+"party": "BJP",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": 59192901,
+"liab": 5582157
+},
+{
+"cid": 3835,
+"name": "Lalji Verma",
+"ac": "KATEHARI",
+"party": "SP",
+"crim": 3,
+"edu": "Post Graduate",
+"assets": 90174093,
+"liab": 3145000
+},
+{
+"cid": 15,
+"name": "Laxmi Narayan",
+"ac": "CHHATA",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": 140579164,
+"liab": 2950000
+},
+{
+"cid": 2797,
+"name": "Lokendra Pratap Singh",
+"ac": "MOHAMMDI",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 28440042,
+"liab": 1000000
+},
+{
+"cid": 2717,
+"name": "Madhavendra Pratap Singh",
+"ac": "SAWAYAZPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 114863189,
+"liab": 2583802
+},
+{
+"cid": 3108,
+"name": "Maharaji Prajapati",
+"ac": "AMETHI",
+"party": "SP",
+"crim": 0,
+"edu": "Literate",
+"assets": 95592804,
+"liab": 24549391
+},
+{
+"cid": 817,
+"name": "Mahendra",
+"ac": "HASANPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "8th Pass",
+"assets": 18013894,
+"liab": 2160000
+},
+{
+"cid": 4213,
+"name": "Mahendra Nath Yadav",
+"ac": "BASTI SADAR",
+"party": "SP",
+"crim": 13,
+"edu": "Post Graduate",
+"assets": 13440065,
+"liab": 0
+},
+{
+"cid": 3643,
+"name": "Mahendra Pal Singh",
+"ac": "PIPRAICH",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 151632412,
+"liab": 13759390
+},
+{
+"cid": 899,
+"name": "Mahesh Chandra Gupta",
+"ac": "BADAUN",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": 54273463,
+"liab": 2887978
+},
+{
+"cid": 1776,
+"name": "Mahesh Kumar Trivedi",
+"ac": "KIDWAI NAGAR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": 83593104,
+"liab": 0
+},
+{
+"cid": 1653,
+"name": "Major Sunil Dutt Dwivedi",
+"ac": "FARRUKHABAD",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": 40876895,
+"liab": 0
+},
+{
+"cid": 134,
+"name": "Ajit Pal Tyagi",
+"ac": "MURADNAGAR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2656,
+"name": "Amresh Kumar",
+"ac": "MOHANLALGANJ (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 4429,
+"name": "Anil Rajbhar",
+"ac": "SHIVPUR",
+"party": "BJP",
+"crim": 2,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2293,
+"name": "Armaan Khan",
+"ac": "LUCKNOW WEST",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2497,
+"name": "Ashutosh Shukla",
+"ac": "BHAGWANTNAGAR",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3209,
+"name": "Awadhesh Prasad",
+"ac": "MILKIPUR (SC)",
+"party": "SP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 91,
+"name": "Bhagwan Singh Kushwaha",
+"ac": "KHERAGARH",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": null,
+"liab": null
+},
+{
+"cid": 814,
+"name": "Brijesh",
+"ac": "DEOBAND",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 821,
+"name": "Devender Kumar Nim",
+"ac": "RAMPUR MANIHARAN (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 167,
+"name": "Dinesh",
+"ac": "HASTINAPUR (SC)",
+"party": "BJP",
+"crim": 4,
+"edu": "8th Pass",
+"assets": null,
+"liab": null
+},
+{
+"cid": 242,
+"name": "Dr. Manju Shiwach",
+"ac": "MODI NAGAR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 249,
+"name": "Dr. Somendra Singh Tomar",
+"ac": "MEERUT SOUTH",
+"party": "BJP",
+"crim": 2,
+"edu": "Doctorate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3630,
+"name": "Fateh Bahadur",
+"ac": "CAIMPIYARGANJ",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3239,
+"name": "Guru Prasad Maurya",
+"ac": "PHAPHAMAU",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 901,
+"name": "Harish Chandra",
+"ac": "BILSI",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2728,
+"name": "Jai Devi",
+"ac": "MALIHABAD (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Literate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 1813,
+"name": "Jayveer Singh",
+"ac": "MAINPURI",
+"party": "BJP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3780,
+"name": "Ketakee Singh",
+"ac": "BANSDIH",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 4697,
+"name": "Lucky Yadav",
+"ac": "MALHANI",
+"party": "SP",
+"crim": 7,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 1668,
+"name": "Manish Asija",
+"ac": "FIROZABAD",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3304,
+"name": "Mariya",
+"ac": "MATERA",
+"party": "SP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2232,
+"name": "Mohammad Hasan",
+"ac": "KANPUR CANTT.",
+"party": "SP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 1929,
+"name": "Nadira Sultan",
+"ac": "PATIYALI",
+"party": "SP",
+"crim": 0,
+"edu": "12th Pass",
+"assets": null,
+"liab": null
+},
+{
+"cid": 1759,
+"name": "Neelima Katiyar",
+"ac": "KALYANPUR",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 4712,
+"name": "Pankaj",
+"ac": "MUNGRA BADSHAHPUR",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2702,
+"name": "Prabhash Kumar",
+"ac": "SANDI (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": null,
+"liab": null
+},
+{
+"cid": 1735,
+"name": "Pratibha Shukla",
+"ac": "AKBARPUR-RANIYA",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 410,
+"name": "Rafiq Ansari",
+"ac": "MEERUT",
+"party": "SP",
+"crim": 1,
+"edu": "8th Pass",
+"assets": null,
+"liab": null
+},
+{
+"cid": 815,
+"name": "Rajeev Kumar",
+"ac": "DHANAURA (SC)",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3825,
+"name": "Rajesh Tripathi",
+"ac": "CHILLUPAR",
+"party": "BJP",
+"crim": 3,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2519,
+"name": "Rakesh Rathour",
+"ac": "SITAPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "8th Pass",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3298,
+"name": "Ram Niwas Verma",
+"ac": "NANPARA",
+"party": "Apna Dal (Soneylal)",
+"crim": 0,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2577,
+"name": "Ramkesh Nishad",
+"ac": "TINDWARI",
+"party": "BJP",
+"crim": 1,
+"edu": "Graduate Professional",
+"assets": null,
+"liab": null
+},
+{
+"cid": 105,
+"name": "Ravendra Pal Singh",
+"ac": "CHHARRA",
+"party": "BJP",
+"crim": 0,
+"edu": "10th Pass",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3955,
+"name": "Saiyada Khatoon",
+"ac": "DOMARIYAGANJ",
+"party": "SP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 828,
+"name": "Sanjeev Agarwal",
+"ac": "BAREILLY CANTT.",
+"party": "BJP",
+"crim": 0,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 1787,
+"name": "Satish Mahana",
+"ac": "MAHARAJPUR",
+"party": "BJP",
+"crim": 0,
+"edu": "Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 1628,
+"name": "Shivpal Singh Yadav",
+"ac": "JASWANTNAGAR",
+"party": "SP",
+"crim": 0,
+"edu": "Graduate Professional",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3330,
+"name": "Subhash Tripathi",
+"ac": "PAYAGPUR",
+"party": "BJP",
+"crim": 4,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2397,
+"name": "Suresh Rahi",
+"ac": "HARGAON (SC)",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 4238,
+"name": "Tribhuwan Dutt",
+"ac": "ALAPUR (SC)",
+"party": "SP",
+"crim": 1,
+"edu": "12th Pass",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3376,
+"name": "Vijama Yadav",
+"ac": "PRATAPPUR",
+"party": "SP",
+"crim": 2,
+"edu": "Literate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 2777,
+"name": "Vinod Shankar",
+"ac": "DHAURAHRA",
+"party": "BJP",
+"crim": 1,
+"edu": "Post Graduate",
+"assets": null,
+"liab": null
+},
+{
+"cid": 3970,
+"name": "Viveka Nand Pandey",
+"ac": "KHADDA",
+"party": "Nirbal Indian Shoshit Hamara Aam Dal",
+"crim": 2,
+"edu": "12th Pass",
+"assets": null,
+"liab": null
+}
+]

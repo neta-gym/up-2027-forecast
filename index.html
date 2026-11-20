@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UP 2027 Forecast — Seat-by-seat prediction for all 403 constituencies</title>
+  <meta name="description" content="Who will win Uttar Pradesh in 2027? A seat-by-seat forecast of all 403 assembly constituencies built on 2012–2024 results, MLA records and the latest opinion polls.">
+  <meta property="og:title" content="UP 2027 Forecast — who wins Uttar Pradesh?">
+  <meta property="og:description" content="20,000 simulated elections. Every constituency, every MLA, every prospective candidate — with win probabilities.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23D9711A'/%3E%3Cpath d='M32 0V32H0Z' fill='%2313906F'/%3E%3Crect x='1.5' y='1.5' width='29' height='29' fill='none' stroke='%2314151a' stroke-width='3'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="#/"><div class="mark"><span>UP</span></div><b>UP 2027<br>Forecast</b></a>
+      <div class="search" id="topSearch"><input type="search" placeholder="Search seat, district, MLA…" aria-label="Search constituencies and MLAs" autocomplete="off"><div class="results"></div></div>
+      <nav class="main">
+        <a href="#/" data-r="home">Forecast</a>
+        <a href="#/seats" data-r="seats">All seats</a>
+        <a href="#/mlas" data-r="mlas">MLA report cards</a>
+        <a href="#/method" data-r="method">Method</a>
+      </nav>
+      <span class="ver hide-sm" id="ver">v1.0</span>
+    </div>
+  </header>
+  <main><div class="wrap" id="app"><div class="loading">Loading 403 constituencies…</div></div></main>
+  <footer>
+    <div class="wrap">
+      <div><b>UP 2027 Forecast</b> — an independent, data-driven projection. Not affiliated with any party or polling agency.</div>
+      <div>Sources: Election Commission of India results (2012, 2017, 2022 assembly; 2024 Lok Sabha by assembly segment) via Wikipedia, MyNeta/ADR candidate affidavits, published opinion polls (Matrize, Spick Media, Survey Sarva, Vote Vibe, Siddhant Sathe, Dainik Bhaskar), constituency boundaries from datta07/INDIAN-SHAPEFILES, and news reporting up to <span id="asof">19 Nov 2026</span>.</div>
+      <div class="muted">Forecasts are probabilities, not certainties. A 70% favourite loses 3 times in 10. Candidate lists are provisional until parties file nominations.</div>
+    </div>
+  </footer>
+  <div class="tip" id="tip"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
