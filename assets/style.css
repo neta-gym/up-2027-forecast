@@ -248,7 +248,7 @@ footer .wrap { display: grid; gap: 8px; }
 .inset { position: relative; width: 100%; aspect-ratio: 1; border-radius: 50%; border: 3px solid var(--line); overflow: hidden; background: #fff; box-shadow: 3px 3px 0 var(--ink); }
 .inset img { width: 100%; height: 100%; object-fit: cover; object-position: var(--o, 50% 20%); transform: scale(var(--z, 1)); transform-origin: var(--o, 50% 20%); }
 .portrait-wrap { position: relative; }
-.rahul { position: absolute; right: -7%; top: -9%; width: 40%; display: flex; flex-direction: column; align-items: flex-end; gap: 5px; z-index: 2; }
+.rahul { position: absolute; right: -9%; top: -17%; width: 36%; display: flex; flex-direction: column; align-items: flex-end; gap: 5px; z-index: 2; }
 .rahul .inset-label { font-family: var(--mono); font-size: 10px; font-weight: 700; background: var(--card); border: 2px solid var(--line); padding: 1px 5px; white-space: nowrap; box-shadow: 2px 2px 0 var(--ink); }
 .info .kicker { font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--c); }
 .info h2 { margin: 4px 0 4px; font-size: clamp(20px, 2.6vw, 30px); }
@@ -324,7 +324,7 @@ footer .wrap { display: grid; gap: 8px; }
   .side, .side.right { grid-template-columns: minmax(0, 1fr); align-items: start; }
   .side.right .info { order: 0; text-align: left; }
   .side .info { text-align: left; }
-  .rahul { left: auto; right: -8%; top: -8%; width: 42%; }
+  .rahul { left: auto; right: -8%; top: -14%; width: 38%; }
   .contenders { grid-template-columns: minmax(0, 1fr); padding: 14px 16px 18px; }
   .duel .seatbar, .duel .legend { margin-left: 16px; margin-right: 16px; }
   .band { grid-template-columns: repeat(2, minmax(0, 1fr)); }

@@ -239,23 +239,23 @@
   }
 
   // ------------------------------------------------------------------ leaders
-  // Portraits are hot-linked from Wikimedia Commons (licences listed in LEADER_CREDITS / footer).
-  const WM = 'https://upload.wikimedia.org/wikipedia/commons/';
+  // Portraits: openly licensed files from Wikimedia Commons, cropped and hosted in assets/img (credits in each entry).
+  const IMG = 'assets/img/';
   const LEADERS = {
-    yogi: { name: 'Yogi Adityanath', short: 'Yogi', bloc: 'NDA', party: 'BJP', kicker: 'NDA · BJP+', role: 'Chief Minister since 2017 · seeking a third straight BJP term', img: WM + '0/05/Yogi_Adityanath_2026.jpg', o: '50% 22%', z: 1.05,
+    yogi: { name: 'Yogi Adityanath', short: 'Yogi', bloc: 'NDA', party: 'BJP', kicker: 'NDA · BJP+', role: 'Chief Minister since 2017 · seeking a third straight BJP term', img: IMG + 'yogi-adityanath.jpg', o: '50% 25%', z: 1,
       turf: { label: 'Gorakhpur division', districts: ['Gorakhpur', 'Maharajganj', 'Deoria', 'Kushinagar'] }, pins: [322], credit: ['Yogi Adityanath', 'Prime Minister’s Office', 'GODL-India', 'File:Yogi_Adityanath_2026.jpg'] },
-    akhilesh: { name: 'Akhilesh Yadav', short: 'Akhilesh', bloc: 'INDIA', party: 'SP', kicker: 'INDIA · SP+INC', role: 'SP president · MP, Kannauj · CM 2012–17', img: WM + 'thumb/0/02/Shri_Akhilesh_Yadav.png/500px-Shri_Akhilesh_Yadav.png', o: '50% 9%', z: 1.75,
+    akhilesh: { name: 'Akhilesh Yadav', short: 'Akhilesh', bloc: 'INDIA', party: 'SP', kicker: 'INDIA · SP+INC', role: 'SP president · MP, Kannauj · CM 2012–17', img: IMG + 'akhilesh-yadav.jpg', o: '50% 30%', z: 1,
       turf: { label: 'the Yadav belt', districts: ['Etawah', 'Mainpuri', 'Kannauj', 'Firozabad', 'Auraiya'] }, pins: [110, 199], credit: ['Akhilesh Yadav', 'Harshv7777', 'CC0', 'File:Shri_Akhilesh_Yadav.png'] },
-    rahul: { name: 'Rahul Gandhi', short: 'Rahul', bloc: 'INDIA', party: 'INC', kicker: 'INDIA · Congress', role: 'Leader of Opposition, Lok Sabha · MP, Rae Bareli', img: WM + 'thumb/9/91/Rahul_Gandhi.png/500px-Rahul_Gandhi.png', o: '47% 18%', z: 1.35,
+    rahul: { name: 'Rahul Gandhi', short: 'Rahul', bloc: 'INDIA', party: 'INC', kicker: 'INDIA · Congress', role: 'Leader of Opposition, Lok Sabha · MP, Rae Bareli', img: IMG + 'rahul-gandhi.jpg', o: '50% 32%', z: 1.08,
       turf: { label: 'Rae Bareli & Amethi', districts: ['Raebareli', 'Amethi'] }, pins: [244, 315, 384], credit: ['Rahul Gandhi', 'Himanshu Arya Khowal', 'CC BY 4.0', 'File:Rahul_Gandhi.png'] },
-    mayawati: { name: 'Mayawati', short: 'Mayawati', bloc: 'BSP', party: 'BSP', kicker: 'BSP · going solo', role: 'BSP president · four-time Chief Minister', img: WM + 'd/d3/Mayawati_in_2016_%28cropped%29.jpg', o: '50% 30%', z: 1.1,
+    mayawati: { name: 'Mayawati', short: 'Mayawati', bloc: 'BSP', party: 'BSP', kicker: 'BSP · going solo', role: 'BSP president · four-time Chief Minister', img: IMG + 'mayawati.jpg', o: '50% 30%', z: 1.05,
       turf: { label: 'the BSP’s 25 strongest seats', top: 'BSP', n: 25 }, pins: [358], credit: ['Mayawati', 'Flickr: BSP Supremo Mayawati', 'CC BY-SA 2.0', 'File:Mayawati_in_2016_(cropped).jpg'] },
-    azad: { name: 'Chandrashekhar Azad', short: 'Azad', bloc: 'SPM', party: 'ASP(KR)', kicker: 'Azad–Owaisi front', role: 'MP, Nagina · CM face of the ASP(KR)–AIMIM front', img: WM + '5/52/Chandrashekhar_Azad_%28politician%29.jpg', o: '50% 35%', z: 1.15,
+    azad: { name: 'Chandrashekhar Azad', short: 'Azad', bloc: 'SPM', party: 'ASP(KR)', kicker: 'Azad–Owaisi front', role: 'MP, Nagina · CM face of the ASP(KR)–AIMIM front', img: IMG + 'chandrashekhar-azad.jpg', o: '50% 35%', z: 1.1,
       turf: { label: 'the front’s 15 strongest seats', top: 'SPM', n: 15 }, pins: [18], credit: ['Chandrashekhar Azad', 'sansad.in', 'GODL-India', 'File:Chandrashekhar_Azad_(politician).jpg'] },
   };
   const initials = (n) => n.split(' ').map((w) => w[0]).slice(0, 2).join('');
-  function photo(L, cls = '', badge = '') {
-    return `<div class="ph ${cls}" style="--c:${C[L.bloc]};--o:${L.o};--z:${L.z}"><img src="${L.img}" alt="${esc(L.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;mono-fallback&quot;>${initials(L.name)}</div>'">${badge ? `<div class="badge">${badge}</div>` : ''}</div>`;
+  function photo(L, cls = '', badge = '', eager = false) {
+    return `<div class="ph ${cls}" style="--c:${C[L.bloc]};--o:${L.o};--z:${L.z}"><img src="${L.img}" alt="${esc(L.name)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} width="480" height="600" onerror="this.outerHTML='<div class=&quot;mono-fallback&quot;>${initials(L.name)}</div>'">${badge ? `<div class="badge">${badge}</div>` : ''}</div>`;
   }
   function turfSeats(L) {
     if (L.turf.districts) return SEATS.filter((s) => L.turf.districts.includes(s.district));
@@ -346,14 +346,14 @@
       </div>
       <div class="duel-grid">
         <a class="side" href="#/seat/322" style="--c:${C.NDA}">
-          ${photo(LY, '', 'NDA')}
+          ${photo(LY, '', 'NDA', true)}
           <div class="info"><div class="kicker">${LY.kicker}</div><h2>Yogi Adityanath</h2><div class="role">${esc(LY.role)}</div>
             <div class="big">${S.NDA.median}</div><div class="big-l">projected seats</div><div class="rng">9 in 10 simulations: ${S.NDA.p05}–${S.NDA.p95}</div>
             <span class="poll">POLLS ${SUM.target.NDA.toFixed(1)}%</span></div>
         </a>
         <div class="center"><div class="vs">VS</div>${gauge(pm)}<div class="call">${callTxt}</div><div class="call-s">On today's polls the NDA leads by ${(SUM.target.NDA - SUM.target.INDIA).toFixed(1)} points — and the SP-led bloc's vote is spread more efficiently.</div></div>
         <a class="side right" href="#/seats?set=akhilesh" style="--c:${C.INDIA}">
-          <div class="portrait-wrap">${photo(LA, '', 'INDIA')}<div class="rahul"><div class="inset" style="--o:${LR.o};--z:${LR.z}"><img src="${LR.img}" alt="Rahul Gandhi" loading="lazy" referrerpolicy="no-referrer"></div><span class="inset-label">+ RAHUL GANDHI</span></div></div>
+          <div class="portrait-wrap">${photo(LA, '', 'INDIA', true)}<div class="rahul"><div class="inset" style="--o:${LR.o};--z:${LR.z}"><img src="${LR.img}" alt="Rahul Gandhi" width="480" height="600"></div><span class="inset-label">+ RAHUL GANDHI</span></div></div>
           <div class="info"><div class="kicker">${LA.kicker}</div><h2>Akhilesh Yadav</h2><div class="role">SP president, allied with Rahul Gandhi's Congress</div>
             <div class="big">${S.INDIA.median}</div><div class="big-l">projected seats</div><div class="rng">9 in 10 simulations: ${S.INDIA.p05}–${S.INDIA.p95}</div>
             <span class="poll">POLLS ${SUM.target.INDIA.toFixed(1)}%</span></div>
